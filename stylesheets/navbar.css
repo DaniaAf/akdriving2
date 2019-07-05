@@ -1,0 +1,32 @@
+ul {
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-lewagon {
+  /*background: transparent;*/
+  background: black;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.nav-item a {
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo-navbar img{
+  height: 42px;
+  margin-right: 17px;
+}
+
+.active {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
