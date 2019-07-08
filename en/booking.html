@@ -10,39 +10,51 @@
 
   </head>
   <body>
-   <!-- NAVBAR -->
-   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-     <div class="logo-navbar">
-      <a href="index.html"><img src="../images/ak-logo-white.png" alt=""></a>
-     </div>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="logo-navbar">
+       <a href="index.html"><img src="../images/ak-logo-white.png" alt=""></a>
+      </div>
 
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item">
-           <a class="test" href="services.html">SERVICES</a>
-         </li>
-         <li class="nav-item active">
-           <a href="prices.html">PRICES</a>
-         </li>
-         <li class="nav-item">
-           <a href="contact.html">CONTACT</a>
-         </li>
-         <li class="nav-item">
-           <a href="about_us.html">ABOUT US</a>
-         </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
+            <a class="test" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a href="prices.html">PRICES</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a href="about_us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item active">
             <a href="booking.html">BOOKING</a>
           </li>
-       </ul>
-     </div>
+        </ul>
+      </div>
 
-      <a href="../en/prices.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
-      <a href="../pages/prices.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+      <a href="../en/booking.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+      <a href="../pages/booking.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
 
     </div>
-   <!-- END OF NAVBAR -->
+    <!-- END OF NAVBAR -->
 
-    <h1 class="test">english prices</h1>
+
+     <h1>english booking</h1>
+<!-- FORM FOR RESERVATION -->
+    <form action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
+"" method="POST">
+      <input name="_redirect" type="hidden" value="https://www.google.fr">
+      <input type="text" name="name" placeholder="your name" required>
+      <input type="email" name="_replyto" placeholder="your email address" required>
+      <input type="date" name="date" placeholder="dd/mm/yyyy" required>
+      <input type="text" name="message" placeholder="pick up & drop off address, number of passengers, number of days..." required>
+      <input type="submit" value="Send">
+    </form>
+<!-- END OF RESERVATION -->
 
     <!-- FOOTER   -->
     <div class="footer">
@@ -65,7 +77,6 @@
       </div>
     </div>
     <!-- END OF FOOTER   -->
-
 
     <script src="../main.js"></script>
     <script src="../style.css"></script>
