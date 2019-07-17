@@ -1,3 +1,5 @@
+/*Qui sommes-nous part*/
+
 .presentation-part {
   display: grid;
   width: 45%;
@@ -26,8 +28,7 @@
 
 
 
-
-
+/*logos and datas part*/
 
 .data-and-logo {
   display: flex;
@@ -60,6 +61,7 @@ p.data {
 
 
 
+/*trust-us clients part*/
 
 .trust-us {
   margin-top: 135px;
@@ -71,22 +73,70 @@ p.data {
   text-align: center;
 }
 
-
 .trust-us-container {
   background-color: white;
   width: 60%;
-  height: 500px;
+  height: 450px;
   margin: 50px auto 100px auto;
   display: grid;
   align-items: center;
   justify-content: center;
   padding: 0 ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 
-img.logos-clients {
-  height: 100px;
-  width: 100px;
+#chanel {
+  height: 83px;
+  width: 120px;
 }
 
+#saint-laurent {
+  height: 57px;
+  width: 140px;
+}
 
+#le-monde {
+  width: 155px;
+  height: 45px;
+}
+
+#accor {
+  width: 154px;
+  height: 80px;
+}
+
+#cartier {
+  height: 140px;
+  width: 158px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+#dior {
+  height: 65px;
+  width: 130px;
+}
+
+#celine {
+  height: 40px;
+  width: 144px;
+}
+
+#christies {
+  height: 55px;
+  width: 115px;
+}
+
+#regus {
+  height: 90px;
+  width: 115px;
+}
+
+#weston {
+  height: 175px;
+  width: 152px;
+}
