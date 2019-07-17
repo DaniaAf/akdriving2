@@ -1,3 +1,7 @@
+body{
+    background-color: #E5E5E5;
+}
+
 ul {
   width: 650px;
   display: flex;
@@ -5,8 +9,8 @@ ul {
 }
 
 .navbar-lewagon {
-  /*background: transparent;*/
-  background: black;
+  background: transparent;
+/*  background: black;*/
 }
 
 .navbar-lewagon .navbar-brand img {
@@ -34,3 +38,4 @@ ul {
 img.flags{
   height: 20px;
 }
+
