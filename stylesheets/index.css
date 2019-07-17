@@ -1,3 +1,8 @@
+.nav-item a {
+  color: white !important;
+}
+
+
 .background-content {
   background-image:url("../images/paris1.png");
   background-size: cover;

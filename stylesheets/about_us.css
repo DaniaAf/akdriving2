@@ -1,0 +1,92 @@
+.presentation-part {
+  display: grid;
+  width: 45%;
+  margin: 110px auto 80px auto;
+  text-align:justify;
+}
+
+.presentation-part h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Source Sans Pro';
+  margin-bottom: 60px;
+}
+
+.presentation-part p {
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+}
+
+.qui-sommes-nous-paris {
+  height: 550px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.data-and-logo {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin: 60px auto;
+}
+
+p.data {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro';
+}
+
+.img-data {
+  height: 100px;
+  display: flex;
+  margin: auto;
+}
+
+#driver-logo {
+  width: 120px;
+}
+
+#car-logo {
+  width: 130px;
+}
+
+
+
+
+
+.trust-us {
+  margin-top: 135px;
+}
+
+.trust-us h3 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro';
+  text-align: center;
+}
+
+
+.trust-us-container {
+  background-color: white;
+  width: 60%;
+  height: 500px;
+  margin: 50px auto 100px auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 0 ;
+}
+
+
+img.logos-clients {
+  height: 100px;
+  width: 100px;
+}
+
+

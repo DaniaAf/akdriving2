@@ -1,5 +1,5 @@
 body{
-    background-color: #E5E5E5;
+  background-color: #E5E5E5;
 }
 
 ul {
@@ -20,19 +20,19 @@ ul {
 .nav-item a {
   font-size: 18px;
   font-weight: lighter;
-  color: white;
+  color: black;
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .logo-navbar img{
-  height: 42px;
+  height: 27px;
   margin-right: 17px;
 }
 
 .active {
   opacity: 1;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
 }
 
 img.flags{
