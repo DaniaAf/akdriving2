@@ -1,3 +1,10 @@
+h3 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro';
+  text-align: center;
+}
+
+
 /*Qui sommes-nous part*/
 
 .presentation-part {
@@ -8,9 +15,6 @@
 }
 
 .presentation-part h3 {
-  text-align: center;
-  font-size: 24px;
-  font-family: 'Source Sans Pro';
   margin-bottom: 60px;
 }
 
@@ -67,11 +71,6 @@ p.data {
   margin-top: 135px;
 }
 
-.trust-us h3 {
-  font-size: 24px;
-  font-family: 'Source Sans Pro';
-  text-align: center;
-}
 
 .trust-us-container {
   background-color: white;
@@ -140,3 +139,18 @@ p.data {
   height: 175px;
   width: 152px;
 }
+
+
+
+ a.contact-button {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans';
+  background-color: #ABABAB;
+  width: fit-content;
+  padding: 7px 35px;
+  border-radius: 5px;
+  display: flex;
+  margin: 20px auto 60px auto;
+}
+
