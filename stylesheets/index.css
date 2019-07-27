@@ -55,7 +55,8 @@
 .call-to-action-about-us:hover {
   text-decoration: none !important;
   color: black !important;
-  height: 39px;
+  background-color: #a8a6a6;
+  font-size: 16.5px;
 }
 
 

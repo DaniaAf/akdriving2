@@ -54,6 +54,15 @@ h3 {
   align-items: center;
 }
 
+.card-service:hover{
+  opacity: 0.3;
+}
+
+/*new text when hover*/
+.text-hidden {
+  display: none;
+}
+
 .card-service p {
   font-size: 26px;
   color: white;
@@ -63,7 +72,9 @@ h3 {
 
 
 /*caroussel */
-
+.cars-div-img {
+  height: 400px;
+}
 
 #berline {
   height: 400px;
@@ -102,4 +113,12 @@ h3 {
 
 .cars-title {
   margin-bottom: 50px;
+}
+
+.fas.fa-chevron-left{
+  color: black;
+}
+
+.fas.fa-chevron-right{
+  color: black;
 }

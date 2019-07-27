@@ -154,3 +154,8 @@ p.data {
   margin: 20px auto 60px auto;
 }
 
+.contact-button:hover {
+  background-color: #a8a6a6;
+  font-size: 16.5px;
+}
+
