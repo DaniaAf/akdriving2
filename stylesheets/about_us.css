@@ -1,6 +1,6 @@
 h3 {
   font-size: 24px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ h3 {
 
 .presentation-part p {
   font-size: 18px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .qui-sommes-nous-paris {
@@ -45,7 +45,7 @@ p.data {
   text-align: center;
   font-size: 21px;
   font-weight: bold;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .img-data {
@@ -60,6 +60,8 @@ p.data {
 
 #car-logo {
   width: 130px;
+  height: 90px;
+  margin-bottom: 10px;
 }
 
 
@@ -84,20 +86,26 @@ p.data {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.col-logo {
+  display: flex;
+  justify-content: center;
+}
 
 #chanel {
-  height: 83px;
+  height: 74px;
   width: 120px;
+  margin-bottom: 25px;
+
 }
 
 #saint-laurent {
-  height: 57px;
-  width: 140px;
+  height: 49px;
+  width: 169px;
 }
 
 #le-monde {
   width: 155px;
-  height: 45px;
+  height: 40px;
 }
 
 #accor {
@@ -106,8 +114,8 @@ p.data {
 }
 
 #cartier {
-  height: 140px;
-  width: 158px;
+  height: 63px;
+  width: 150px;
 }
 
 .row {
@@ -116,28 +124,29 @@ p.data {
 }
 
 #dior {
-  height: 65px;
+  height: 58px;
   width: 130px;
+  margin-bottom: 18px;
 }
 
 #celine {
-  height: 40px;
+  height: 33px;
   width: 144px;
 }
 
 #christies {
-  height: 55px;
-  width: 115px;
+  height: 64px;
+  width: 130px;
 }
 
 #regus {
-  height: 90px;
-  width: 115px;
+  height: 77px;
+    width: 115px;
 }
 
 #weston {
-  height: 175px;
-  width: 152px;
+  height: 35px;
+  width: 162px;
 }
 
 
@@ -145,7 +154,7 @@ p.data {
  a.contact-button {
   text-decoration: none;
   color: black;
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #ABABAB;
   width: fit-content;
   padding: 7px 35px;
