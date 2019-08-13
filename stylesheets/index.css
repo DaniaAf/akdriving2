@@ -88,13 +88,23 @@
   align-items: center;
 }
 
+@media(max-width: 1000px) {
+  .logos {
+  width: 100%;
+  }
+  .clients p {
+    width: 100%;
+  }
+}
+
+
 #saint-laurent {
-  height: 50px;
+  height: 40px;
   width: 150px;
 }
 
 #le-monde {
-  height: 42px;
+  height: 32px;
   width: 140px;
 }
 
@@ -112,6 +122,7 @@
 #regus {
   width: 100px;
   margin-top: -7px;
+  height: 60px;
 }
 
 #cartier{
