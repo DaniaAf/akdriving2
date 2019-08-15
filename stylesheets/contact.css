@@ -1,0 +1,41 @@
+.contact-content {
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: calc(100vh - 163.99px);
+}
+
+.left-part {
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 88px 0px;
+}
+
+.icon-and-text-contact p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.far.fa-envelope {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.fas.fa-phone {
+  font-size: 40px;
+}
+
+.right-part {
+  width: 50%;
+  background-color: blue;
+}
+
+.icon-and-text-contact {
+  display: flex;
+}
