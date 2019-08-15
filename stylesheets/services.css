@@ -43,28 +43,6 @@ h3 {
   justify-content: center;
 }
 
-/*.card-service {
-  background-image:url("../images/rdv-professionnels.jpg");
-  height: 300px;
-  width: 230px;
-  border-radius: 2px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-}*/
-
-/*.transferts-aeroport{
-  background-image:url("../images/transferts-aeroport-gare.jpg");
-  height: 300px;
-  width: 230px;
-  border-radius: 2px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-}*/
-
 .transferts-aeroport{
   background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/transferts-aeroport-gare.jpg");
   background-size: cover;
