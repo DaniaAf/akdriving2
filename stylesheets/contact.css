@@ -12,6 +12,10 @@
   padding: 88px 0px;
 }
 
+.icon-and-text-contact {
+  display: flex;
+}
+
 .icon-and-text-contact p {
   font-size: 18px;
   margin-left: 20px;
@@ -33,9 +37,56 @@ h2 {
 
 .right-part {
   width: 50%;
-  background-color: blue;
+  background-image: url("../images/background-nous-contacter.jpg");
+  background-size: cover;
+  display: grid;
+  align-items: center;
 }
 
-.icon-and-text-contact {
-  display: flex;
+.contact-form {
+  /*display: grid;*/
+/*  justify-content: center;
+  align-items: center;*/
+  margin: 15px auto;
+  width: 63%;
+  height: 70%;
+  background-color: #E5E5E5;
+  border-radius: 22px;
+
 }
+
+form {
+  margin-top: 20%;
+  height: 80%;
+}
+
+input {
+  width: 80%;
+  margin-bottom: 15px;
+  background-color: #E5E5E5;
+  display: grid;
+  margin: 28px auto;
+  border: none;
+  border-bottom: solid;
+  border-bottom-style: ridge;
+}
+
+#message-input {
+  border-style: ridge !important;
+  height: 42%;
+}
+
+#message-title {
+  width: 80%;
+  margin: auto;
+}
+
+#button-input {
+  border: none !important;
+}
+
+::placeholder {
+  /*align-items: initial !important;*/
+  /*FIND A SOLUTION*/
+}
+

@@ -67,16 +67,19 @@
         </div>
       </div>
       <div class="right-part">
-        <!-- FORM FOR CONTACT -->
-        <form action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
-        " method="POST">
-          <input name="_redirect" type="hidden" value="https://www.google.fr">
-          <input type="text" name="name" placeholder="votre nom" required>
-          <input type="email" name="_replyto" placeholder="votre adresse mail" required>
-          <input type="text" name="message" placeholder="votre demande" required>
-          <input type="submit" value="Envoyer">
-        </form>
-      <!-- END OF FORM -->
+        <div class="contact-form">
+          <!-- FORM FOR CONTACT -->
+          <form action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
+          " method="POST">
+            <input name="_redirect" type="hidden" value="https://www.google.fr">
+            <input type="text" name="name" placeholder="votre nom" required>
+            <input type="email" name="_replyto" placeholder="votre adresse mail" required>
+            <p id="message-title">Message</p>
+            <input id="message-input" type="text" title="Message" name="message" placeholder="votre demande" required>
+            <input id="button-input" type="submit" value="Envoyer">
+          </form>
+          <!-- END OF FORM -->
+        </div>
       </div>
     </div>
 
