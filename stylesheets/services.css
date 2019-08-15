@@ -54,8 +54,20 @@ h3 {
   align-items: center;
 }*/
 
-.transferts-aeroport{
+/*.transferts-aeroport{
   background-image:url("../images/transferts-aeroport-gare.jpg");
+  height: 300px;
+  width: 230px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}*/
+
+.transferts-aeroport{
+  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/transferts-aeroport-gare.jpg");
+  background-size: cover;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -65,8 +77,11 @@ h3 {
   align-items: center;
 }
 
+
+
 .transports-avec-chauffeur-prive {
-  background-image:url("../images/transports-avec-chauffeur-prive.jpg");
+  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/transports-avec-chauffeur-prive.jpg");
+  background-size: cover;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -77,7 +92,8 @@ h3 {
 }
 
 .courses-longues-distances {
-  background-image:url("../images/courses-longues-distances.jpg");
+  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/courses-longues-distances.jpg");
+  background-size: cover;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -88,7 +104,8 @@ h3 {
 }
 
 .evenements-sur-mesure {
-  background-image:url("../images/evenements-sur-mesure.jpg");
+  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/evenements-sur-mesure.jpg");
+  background-size: cover;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -99,7 +116,8 @@ h3 {
 }
 
 .conciergerie {
-  background-image:url("../images/conciergerie.jpg");
+  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/conciergerie.jpg");
+  background-size: cover;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -110,7 +128,8 @@ h3 {
 }
 
 .rdv-professionnels {
-  background-image:url("../images/rdv-professionnels.jpg");
+  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/rdv-professionnels.jpg");
+  background-size: cover;
   height: 300px;
   width: 230px;
   border-radius: 2px;
