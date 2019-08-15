@@ -11,6 +11,7 @@ ul {
 .navbar-lewagon {
   background: transparent;
 /*  background: black;*/
+  height: 64px;
 }
 
 .navbar-lewagon .navbar-brand img {
