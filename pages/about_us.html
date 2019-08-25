@@ -25,20 +25,49 @@
   <body>
 
     <!-- NAVBAR -->
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <div class="logo-navbar">
-       <a href="../index.html"><img src="../images/final-black-logo.png" alt=""></a>
+    <div class="hidden-xs hidden-sm">
+      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+        <div class="logo-navbar">
+         <a href="../index.html"><img src="../images/final-black-logo.png" alt=""></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="about_us.html">QUI SOMMES NOUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="test" href="services.html">PRESTATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a href="booking.html">RESERVATION</a>
+            </li>
+          </ul>
+          <div class="languages-flags">
+            <a href="../en/about_us.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+            <a href="about_us.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- DROPDOWN NAVBAR FOR MOBILE -->
+    <div class="navbar-wagon-item hidden-md hidden-lg">
+      <div class="dropdown">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <button class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars dropdown-toggle" data-toggle="dropdown" ></i></button>
 
-        <ul class="navbar-nav mr-auto">
+        <ul class="dropdown-menu dropdown-menu-left navbar-wagon-dropdown-menu">
           <li class="nav-item active">
-            <a href="about_us.html">QUI SOMMES NOUS</a>
+          <a href="about_us.html">QUI SOMMES NOUS</a>
           </li>
           <li class="nav-item">
             <a class="test" href="services.html">PRESTATIONS</a>
@@ -49,20 +78,14 @@
           <li class="nav-item">
             <a href="booking.html">RESERVATION</a>
           </li>
-<!--           <li class="nav-item dropdown">
-            <img class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://kitt.lewagon.com/placeholder/users/ssaunier" />
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li> -->
+          <li class="nav-item">
+            <a href="../en/about_us.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+          </li>
+          <li class="nav-item">
+            <a href="about_us.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+          </li>
         </ul>
-        <div class="languages-flags">
-          <a href="../en/about_us.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
-          <a href="about_us.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
-        </div>
       </div>
-
     </div>
     <!-- END OF NAVBAR -->
 
@@ -70,12 +93,12 @@
 
 
     <div class="presentation-part">
-    <h3 class="test">QUI SOMMES-NOUS?</h3>
-    <p>Grands groupes, PME, célébrités, agences de production, particuliers … tous nous font confiance depuis maintenant 8 ans et utilisent nos services à des fins professionnelles mais également privés bénéficiant ainsi d’un service sur-mesure adapté qui leur ressemble. <br><br>
-
-    Une simple course, un transfert (gares et aéroports), une mise à disposition, vous disposerez d’un chauffeur privé dans un véhicule haut de gamme , ainsi que l’aide de notre conciergerie et de gestion d’événements si besoin (exple à donner ?, moyennant un supplément ?) <br> <br>
-
-    Présent lors de nombreux événements immanquables (Festival de Cannes, Fashion Week, concerts ...? ) depuis les débuts d’AK Driving Paris, nous saurons vous servir au mieux lors de ce type d’événements également.</p>
+      <h3 class="test">QUI SOMMES-NOUS?</h3>
+      <p>Grands groupes, PME, célébrités, agences de production, particuliers … tous nous font confiance depuis maintenant 8 ans et utilisent nos services à des fins professionnelles mais également privés bénéficiant ainsi d’un service sur-mesure adapté qui leur ressemble.
+      <br><br>
+      Une simple course, un transfert (gares et aéroports), une mise à disposition, vous disposerez d’un chauffeur privé dans un véhicule haut de gamme , ainsi que l’aide de notre conciergerie et de gestion d’événements si besoin (exple à donner ?, moyennant un supplément ?)
+      <br> <br>
+      Présent lors de nombreux événements immanquables (Festival de Cannes, Fashion Week, concerts ...? ) depuis les débuts d’AK Driving Paris, nous saurons vous servir au mieux lors de ce type d’événements également.</p>
     </div>
 
 
@@ -97,23 +120,6 @@
         <p class="data">24h/24 - 7j/7</p>
       </div>
     </div>
-
-<!--     <div class="trust-us">
-      <h3>ILS NOUS FONT CONFIANCE...</h3>
-      <div class="all-clients-logo">
-        <img src="../images/chanel-logo.png" alt="" class="logos-clients" id="chanel">
-        <img src="../images/saint-laurent-logo.png" alt="" class="logos-clients" id="saint-laurent">
-        <img src="../images/Le_monde_logo.png" alt="" class="logos-clients" id="le-monde">
-        <img src="../images/accor-logo.png" alt="" class="logos-clients" id="accor">
-        <img src="../images/cartier-logo.png" alt="" class="logos-clients" id="cartier">
-
-        <img src="../images/dior-logo.png" alt="" class="logos-clients" id="dior">
-        <img src="../images/celine-logo.png" alt="" class="logos-clients" id="celine">
-        <img src="../images/christies-logo.png" alt="" class="logos-clients" id="christies">
-        <img src="../images/regus-logo.png" alt="" class="logos-clients" id="regus">
-        <img src="../images/jm-weston-logo.png" alt="" class="logos-clients" id="weston">
-      </div>
-    </div> -->
 
     <div class="trust-us">
       <h3>ILS NOUS FONT CONFIANCE...</h3>
