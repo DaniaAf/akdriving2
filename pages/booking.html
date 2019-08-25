@@ -6,6 +6,13 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i,400,400i,600,600i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--     dropdown bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon.ico">
 
@@ -16,34 +23,77 @@
 
   </head>
   <body>
-   <!-- NAVBAR -->
-   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-     <div class="logo-navbar">
-      <a href="../index.html"><img src="../images/final-black-logo.png" alt=""></a>
-     </div>
 
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-           <a href="about_us.html">QUI SOMMES NOUS</a>
-        </li>
-        <li class="nav-item">
-          <a class="test" href="services.html">PRESTATIONS</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html">CONTACT</a>
-        </li>
-        <li class="nav-item active">
-          <a href="booking.html">RESERVATION</a>
-        </li>
-       </ul>
-     </div>
 
-      <a href="../en/booking.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
-      <a href="booking.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+    <!-- NAVBAR -->
+    <div class="hidden-xs hidden-sm">
+      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+        <div class="logo-navbar">
+         <a href="../index.html"><img src="../images/final-black-logo.png" alt=""></a>
+        </div>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="about_us.html">QUI SOMMES NOUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="test" href="services.html">PRESTATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item active">
+              <a href="booking.html">RESERVATION</a>
+            </li>
+          </ul>
+          <div class="languages-flags">
+            <a href="../en/booking.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+            <a href="booking.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+          </div>
+        </div>
+      </div>
     </div>
-   <!-- END OF NAVBAR -->
+
+    <!-- DROPDOWN NAVBAR FOR MOBILE -->
+    <div class="navbar-wagon-item hidden-md hidden-lg">
+      <div class="dropdown">
+
+        <button class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" data-toggle="dropdown" ></i></button>
+
+        <ul class="dropdown-menu dropdown-menu-left navbar-wagon-dropdown-menu">
+          <li class="nav-item active">
+          <a href="about_us.html">QUI SOMMES NOUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="test" href="services.html">PRESTATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html">ACCUEIL</a>
+          </li>
+          <li class="nav-item">
+            <a href="../en/booking.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+          </li>
+          <li class="nav-item">
+            <a href="booking.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF NAVBAR -->
+
+
+
+
+
 
     <h1>fr reservation</h1>
 <!-- FORM FOR RESERVATION -->
