@@ -2,6 +2,9 @@
   "name": "javascript-101",
   "version": "1.0.0",
   "description": "Starting code for First JavaScript ES6 lecture",
+  "scripts": {
+      "start": "index.js"
+  },
   "main": "index.js",
   "repository": "https://github.com/lewagon/webpack-boilerplate",
   "author": "ssaunier",
