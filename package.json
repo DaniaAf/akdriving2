@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Starting code for First JavaScript ES6 lecture",
   "scripts": {
-      "start": "index.js"
+    "start": "serve",
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
   },
   "main": "index.js",
   "repository": "https://github.com/lewagon/webpack-boilerplate",
