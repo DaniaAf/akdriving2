@@ -85,7 +85,9 @@ img.flags{
   border: white 1px solid;
 }*/
 
-/*.navbar-wagon-item {
-  margin-left: 42vh;
-}*/
+button#navbarDropdown {
+  font-size: 50px;
+/*  position: relative;
+  left: 95%;*/
+}
 
