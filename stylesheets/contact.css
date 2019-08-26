@@ -149,9 +149,10 @@ textarea {
   margin: 0 auto;
 }
 
-p#message-title {
+p#message-title-date {
   width: 0;
   margin: auto auto auto 0;
+  font-weight: 600;
 }
 
 input.date-reservation-input{
