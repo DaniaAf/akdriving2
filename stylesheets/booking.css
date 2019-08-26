@@ -1,7 +1,7 @@
-/*.contact-content {
+.contact-content {
   display: flex;
   font-family: 'Source Sans Pro', sans-serif;
-  height: calc(100vh - 163.99px);
+  min-height: calc(100vh - 163.99px);
 }
 
 .left-part {
@@ -37,7 +37,7 @@ h2 {
 
 .right-part {
   width: 50%;
-  background-image: url("../images/background-nous-contacter.jpg");
+  background-image: url("../images/background-reservation.jpg");
   background-size: cover;
   display: grid;
   align-items: center;
@@ -49,14 +49,15 @@ h2 {
   align-items: center;*/
   margin: 15px auto;
   width: 53%;
-  height: 80%;
+  min-height: 80%;
   background-color: #E5E5E5;
   border-radius: 22px;
+
 }
 
 form {
   margin-top: 13%;
-  height: 80%;
+  min-height: 80%;
 }
 
  #form-title {
@@ -84,7 +85,7 @@ textarea {
   display: grid;
   margin: 3px auto;
   border-style: ridge !important;
-  height: 42%;
+  height: 160px;
 }
 
 #message-title {
@@ -106,5 +107,80 @@ textarea {
 
 #button-input:hover {
   opacity: 0.8;
-}*/
+}
 
+
+/*MEDIA QUERIES MOBILE*/
+
+@media(max-width: 1000px) {
+  .contact-content {
+  display: grid;
+  }
+  .contact-form {
+    width: 80%;
+    min-height: 59%;
+  }
+  textarea{
+    height: 459px;
+  }
+  #button-input{
+    margin: 50px auto;
+  }
+  .left-part {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+  }
+  .call-us {
+    margin-bottom: 79px;
+  }
+  .right-part {
+    width: 100%;
+  }
+  p#form-title {
+    font-size: 30px;
+  }
+  input {
+    font-size: 30px;
+  }
+  p#message-title{
+    font-size: 30px;
+  }
+  textarea {
+    font-size: 30px;
+  }
+}
+
+
+/*ONLY FOR BOOKING CSS*/
+
+.date-reservation {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+p#message-title-date {
+  width: 0;
+  margin: auto auto auto 0;
+  font-weight: 600;
+}
+
+input.date-reservation-input{
+  border-bottom: none;
+  display: flex;
+  width: fit-content;
+  margin-right: 0;
+}
+
+@media(max-width: 1000px) {
+  input.date-reservation-input {
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  p#message-title-date {
+    font-size: 30px;
+  }
+}
