@@ -138,6 +138,18 @@ textarea {
   .right-part {
     width: 100%;
   }
+  p#form-title {
+    font-size: 30px;
+  }
+  input {
+    font-size: 30px;
+  }
+  p#message-title{
+    font-size: 30px;
+  }
+  textarea {
+    font-size: 30px;
+  }
 }
 
 
@@ -164,7 +176,11 @@ input.date-reservation-input{
 
 @media(max-width: 1000px) {
   input.date-reservation-input {
+    font-size: 30px;
     margin-right: auto;
     margin-left: 0;
+  }
+  p#message-title-date {
+    font-size: 30px;
   }
 }
