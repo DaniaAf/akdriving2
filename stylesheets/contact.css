@@ -126,7 +126,6 @@ textarea {
   #button-input{
     margin: 50px auto;
   }
-  }
   .left-part {
     display: flex;
     justify-content: space-around;
@@ -142,4 +141,29 @@ textarea {
 }
 
 
+/*ONLY FOR BOOKING CSS*/
 
+.date-reservation {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+p#message-title {
+  width: 0;
+  margin: auto auto auto 0;
+}
+
+input.date-reservation-input{
+  border-bottom: none;
+  display: flex;
+  width: fit-content;
+  margin-right: 0;
+}
+
+@media(max-width: 1000px) {
+  input.date-reservation-input {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
