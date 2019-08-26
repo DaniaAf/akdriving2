@@ -1,8 +1,9 @@
-.contact-content {
+/*.contact-content {
   display: flex;
   font-family: 'Source Sans Pro', sans-serif;
   height: calc(100vh - 163.99px);
 }
+
 .left-part {
   width: 50%;
   display: grid;
@@ -10,24 +11,30 @@
   align-items: center;
   padding: 88px 0px;
 }
+
 .icon-and-text-contact {
   display: flex;
 }
+
 .icon-and-text-contact p {
   font-size: 18px;
   margin-left: 20px;
 }
+
 h2 {
   font-size: 45px;
   font-weight: 600;
 }
+
 .far.fa-envelope {
   font-size: 40px;
   margin-top: 5px;
 }
+
 .fas.fa-phone {
   font-size: 40px;
 }
+
 .right-part {
   width: 50%;
   background-image: url("../images/background-nous-contacter.jpg");
@@ -35,6 +42,7 @@ h2 {
   display: grid;
   align-items: center;
 }
+
 .contact-form {
   /*display: grid;*/
 /*  justify-content: center;
@@ -45,16 +53,19 @@ h2 {
   background-color: #E5E5E5;
   border-radius: 22px;
 }
+
 form {
   margin-top: 13%;
   height: 80%;
 }
+
  #form-title {
   width: 80%;
   margin: 46px auto;
   font-weight: 600;
   font-size: 21px;
  }
+
 input {
   width: 80%;
   margin-bottom: 15px;
@@ -65,6 +76,7 @@ input {
   border-bottom: solid;
   border-bottom-style: ridge;
 }
+
 textarea {
   width: 80%;
   margin-bottom: 15px;
@@ -74,11 +86,13 @@ textarea {
   border-style: ridge !important;
   height: 42%;
 }
+
 #message-title {
   width: 80%;
   margin: auto;
   font-weight: 600;
 }
+
 #button-input {
   border: none !important;
   background-color: #ABABAB;
@@ -89,6 +103,8 @@ textarea {
   font-weight: 600;
   align-items: center;
 }
+
 #button-input:hover {
   opacity: 0.8;
-}
+}*/
+

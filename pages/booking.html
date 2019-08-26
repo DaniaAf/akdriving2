@@ -18,12 +18,12 @@
 
     <link rel="stylesheet" href="../stylesheets/navbar.css">
     <link rel="stylesheet" href="../stylesheets/footer.css">
+    <link rel="stylesheet" href="../stylesheets/contact.css">
     <meta charset="UTF-8">
     <title>akdriving</title>
 
   </head>
   <body>
-
 
     <!-- NAVBAR -->
     <div class="hidden-xs hidden-sm">
@@ -67,7 +67,10 @@
         <button class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" data-toggle="dropdown" ></i></button>
 
         <ul class="dropdown-menu dropdown-menu-left navbar-wagon-dropdown-menu">
-          <li class="nav-item active">
+          <li class="nav-item">
+            <a href="../index.html">ACCUEIL</a>
+          </li>
+          <li class="nav-item">
           <a href="about_us.html">QUI SOMMES NOUS</a>
           </li>
           <li class="nav-item">
@@ -75,9 +78,6 @@
           </li>
           <li class="nav-item">
             <a href="contact.html">CONTACT</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index.html">ACCUEIL</a>
           </li>
           <li class="nav-item">
             <a href="../en/booking.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
@@ -91,22 +91,63 @@
     <!-- END OF NAVBAR -->
 
 
+    <!-- CONTENT OF PAGE -->
+    <div class="contact-content">
+      <div class="left-part">
+        <div class="contact-us">
+          <h2>Nous contacter</h2>
+          <div class="icon-and-text-contact">
+            <i class="far fa-envelope"></i>
+            <p>Une question ?
+              <br>
+              Demande d’information supplémentaire ?
+              <br>
+              <br>
+              Nous revenons vers vous dans les plus briefs delais
+            </p>
+          </div>
+        </div>
+        <div class="call-us">
+          <h2>Appelez-nous</h2>
+          <div class="icon-and-text-contact">
+            <i class="fas fa-phone"></i>
+            <p>+33 6 20 40 18 64</p>
+          </div>
+        </div>
+      </div>
+      <div class="right-part">
+        <div class="contact-form">
+          <!-- FORM FOR CONTACT -->
+<!--           <form action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
+          " method="POST">
+            <p id="form-title">Votre demande</p>
+            <input name="_redirect" type="hidden" value="https://www.google.fr">
+            <input type="text" name="name" placeholder="Nom" required>
+            <input type="email" name="_replyto" placeholder="Email" required>
+            <p id="message-title">Message:</p>
+            <textarea placeholder="votre message/demande..." required ></textarea>
+            <input id="button-input" type="submit" value="ENVOYER">
+          </form> -->
+          <!-- END OF FORM -->
+          <!-- FORM FOR RESERVATION -->
+          <form action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
+      "" method="POST">
+            <p id="form-title">Votre demande de réservation</p>
+            <input name="_redirect" type="hidden" value="https://www.google.fr">
+            <input type="text" name="name" placeholder="Nom" required>
+            <input type="email" name="_replyto" placeholder="Adresse Mail" required>
+            <div class="date-reservation">
+              <p id="message-title">Date:</p>
+              <input class="date-reservation-input" type="date" name="date" placeholder="jj/mm/aaaa" required>
+            </div>
+            <textarea placeholder="Détails (lieux de prise en charge, nombre de personnes, demandes supplémentaires...)" required ></textarea>
+            <input id="button-input" type="submit" value="ENVOYER">
+          </form>
+          <!-- END OF RESERVATION -->
+        </div>
+      </div>
+    </div>
 
-
-
-
-    <h1>fr reservation</h1>
-<!-- FORM FOR RESERVATION -->
-    <form action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
-"" method="POST">
-      <input name="_redirect" type="hidden" value="https://www.google.fr">
-      <input type="text" name="name" placeholder="votre nom" required>
-      <input type="email" name="_replyto" placeholder="votre adresse mail" required>
-      <input type="date" name="date" placeholder="jj/mm/aaaa" required>
-      <input type="text" name="message" placeholder="votre demande" required>
-      <input type="submit" value="Envoyer">
-  </form>
-<!-- END OF RESERVATION -->
 
 
     <!-- FOOTER   -->
