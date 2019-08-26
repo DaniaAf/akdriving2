@@ -126,7 +126,6 @@ textarea {
   #button-input{
     margin: 50px auto;
   }
-  }
   .left-part {
     display: flex;
     justify-content: space-around;
@@ -139,7 +138,49 @@ textarea {
   .right-part {
     width: 100%;
   }
+  p#form-title {
+    font-size: 30px;
+  }
+  input {
+    font-size: 30px;
+  }
+  p#message-title{
+    font-size: 30px;
+  }
+  textarea {
+    font-size: 30px;
+  }
 }
 
 
+/*ONLY FOR BOOKING CSS*/
 
+.date-reservation {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+p#message-title-date {
+  width: 0;
+  margin: auto auto auto 0;
+  font-weight: 600;
+}
+
+input.date-reservation-input{
+  border-bottom: none;
+  display: flex;
+  width: fit-content;
+  margin-right: 0;
+}
+
+@media(max-width: 1000px) {
+  input.date-reservation-input {
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  p#message-title-date {
+    font-size: 30px;
+  }
+}

@@ -2,6 +2,13 @@
   color: white !important;
 }
 
+.dropdown-nav a {
+  color: black !important;
+}
+
+button#navbarDropdown {
+  color: white;
+}
 
 .background-content {
   background-image: linear-gradient(180.36deg, #000000 0.29%, rgba(0, 0, 0, 0) 101.37%), url("../images/paris1.png");
@@ -126,7 +133,7 @@
 }
 
 #cartier{
-  height: 110px;
+  height: 60px;
   width: 140px;
   margin-top: -17px;
   margin-left: -30px;
