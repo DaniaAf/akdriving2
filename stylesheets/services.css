@@ -185,3 +185,9 @@ h3 {
 .fas.fa-chevron-right{
   color: black;
 }
+
+
+button#navbarDropdown.avatar.dropdown-toggle {
+  background-color: transparent !important;
+  border: none;
+}
