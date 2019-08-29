@@ -102,6 +102,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
   height: 250px;
 /*  width: 90%;*/
   margin: auto;
+  margin-bottom: 25px;
 }
 
 .logos {
