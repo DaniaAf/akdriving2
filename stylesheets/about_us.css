@@ -17,7 +17,23 @@ h3 {
 @media(max-width: 1000px) {
   .presentation-part {
     width: 75%;
+    margin: 0px auto 30px;
   }
+}
+
+.navbar-responsive {
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+button#navbarDropdown {
+  position: absolute;
+  right: 0;
+}
+
+.open>.dropdown-menu {
+  top: 5vh;
 }
 
 .presentation-part h3 {
