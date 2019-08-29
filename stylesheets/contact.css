@@ -43,6 +43,10 @@ h2 {
   align-items: center;
 }
 
+.right-part-reservation{
+  background-image: url("../images/background-reservation.jpg") !important;
+}
+
 .contact-form {
   /*display: grid;*/
 /*  justify-content: center;
@@ -140,7 +144,10 @@ textarea {
     padding: 0;
   }
   .call-us {
-    margin-bottom: 79px;
+    margin-bottom: 76px;
+  }
+  .call-us-reservation{
+    margin-bottom: 20px !important;
   }
   .right-part {
     width: 100%;
