@@ -14,6 +14,12 @@ h3 {
   text-align:justify;
 }
 
+@media(max-width: 1000px) {
+  .presentation-part {
+    width: 75%;
+  }
+}
+
 .presentation-part h3 {
   margin-bottom: 60px;
 }
@@ -39,6 +45,12 @@ h3 {
   width: 60%;
   justify-content: space-around;
   margin: 60px auto;
+}
+
+@media(max-width: 1000px) {
+  .data-and-logo {
+    width: 80%;
+  }
 }
 
 p.data {
@@ -85,6 +97,25 @@ p.data {
   padding: 0 ;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+@media(max-width: 1000px) {
+  .trust-us-container {
+    width: 75%;
+  }
+  #chanel {
+    margin-left: 30px;
+  }
+  #cartier {
+    margin-right: 30px;
+  }
+  #dior {
+    margin-left: 30px;
+  }
+  #weston {
+    margin-right: 30px;
+  }
+}
+
 
 .col-logo {
   display: flex;
@@ -161,6 +192,13 @@ p.data {
   border-radius: 5px;
   display: flex;
   margin: 20px auto 60px auto;
+}
+
+@media(max-width: 1000px) {
+  a.contact-button {
+    font-size: 30px;
+    padding: 20px 50px;
+  }
 }
 
 .contact-button:hover {

@@ -17,6 +17,15 @@ button#navbarDropdown {
   background-position: 50% 100%;
 }
 
+@media(max-width: 1000px) {
+  .background-content {
+    height: 75%;
+  }
+  .all-page {
+    height: 100vh;
+  }
+}
+
 .content {
   height: 50vh;
   display: grid;

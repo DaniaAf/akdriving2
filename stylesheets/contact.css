@@ -109,6 +109,13 @@ textarea {
   opacity: 0.8;
 }
 
+@media(max-width: 1000px) {
+  #button-input {
+    font-size: 30px;
+    padding: 20px 50px;
+  }
+}
+
 
 /*MEDIA QUERIES MOBILE*/
 
