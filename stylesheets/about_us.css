@@ -206,3 +206,8 @@ p.data {
   font-size: 16.5px;
 }
 
+
+button#navbarDropdown.avatar.dropdown-toggle {
+  background-color: transparent !important;
+  border: none;
+}

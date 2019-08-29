@@ -184,3 +184,8 @@ input.date-reservation-input{
     font-size: 30px;
   }
 }
+
+button#navbarDropdown.avatar.dropdown-toggle {
+  background-color: transparent !important;
+  border: none;
+}
