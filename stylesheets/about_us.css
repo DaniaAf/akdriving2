@@ -126,7 +126,7 @@ p.data {
   height: 74px;
   width: 120px;
   margin-bottom: 25px;
-
+  margin-left: 20px;
 }
 
 #saint-laurent {
@@ -147,6 +147,7 @@ p.data {
 #cartier {
   height: 63px;
   width: 150px;
+  margin-right: 20px;
 }
 
 .row {
@@ -158,6 +159,7 @@ p.data {
   height: 58px;
   width: 130px;
   margin-bottom: 18px;
+  margin-left: 20px;
 }
 
 #celine {
@@ -178,6 +180,7 @@ p.data {
 #weston {
   height: 35px;
   width: 162px;
+  margin-right: 20px;
 }
 
 
@@ -194,17 +197,19 @@ p.data {
   margin: 20px auto 60px auto;
 }
 
+.contact-button:hover {
+  background-color: #b2b0b0;
+  font-size: 14.5px;
+}
+
 @media(max-width: 1000px) {
   a.contact-button {
     font-size: 30px;
     padding: 20px 50px;
   }
-}
-
-.contact-button:hover {
-  background-color: #a8a6a6;
-  font-size: 16.5px;
-}
+  .contact-button:hover {
+    font-size: 30.5px !important;
+  }
 
 
 button#navbarDropdown.avatar.dropdown-toggle {

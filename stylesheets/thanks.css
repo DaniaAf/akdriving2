@@ -40,6 +40,8 @@ a.call-to-action-back-home {
 .call-to-action-back-home:hover {
     text-decoration: none !important;
     color: white !important;
+    background-color: #ad3a48 !important;
+    font-size: 22.5px !important;
 }
 
 .circle {
@@ -64,6 +66,9 @@ a.call-to-action-back-home {
   }
   .call-to-action-back-home {
     font-size: 36px;
+  }
+  .call-to-action-back-home:hover {
+    font-size: 36.5px !important;
   }
 }
 

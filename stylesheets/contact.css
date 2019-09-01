@@ -110,7 +110,10 @@ textarea {
 }
 
 #button-input:hover {
-  opacity: 0.8;
+  /*opacity: 0.8;*/
+  background-color: #b2b0b0;
+  font-size: 14.5px;
+  width: 33.5% !important;
 }
 
 @media(max-width: 1000px) {

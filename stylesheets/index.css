@@ -77,14 +77,17 @@ button#navbarDropdown.avatar.dropdown-toggle {
 .call-to-action-about-us:hover {
   text-decoration: none !important;
   color: black !important;
-  background-color: #a8a6a6;
-  font-size: 16.5px;
+  background-color: #b2b0b0;
+  font-size: 14.5px;
 }
 
 @media(max-width: 1000px) {
   .call-to-action-about-us {
     font-size: 30px;
     padding: 20px 50px;
+  }
+  .call-to-action-about-us:hover {
+    font-size: 30.5px;
   }
 }
 
