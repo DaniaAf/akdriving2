@@ -17,6 +17,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon.ico">
 
@@ -105,35 +107,37 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="card-service transferts-aeroport">
+            <div class="card-service transferts-aeroport" data-aos="fade-right">
               <p>TRANSFERTS AEROPORT & GARE</p>
               <p class="text-hidden"> text text text</p>
             </div>
           </div>
           <div class="col">
-            <div class="card-service transports-avec-chauffeur-prive">
+            <div class="card-service transports-avec-chauffeur-prive" data-aos="fade-left">
               <p>TRANSPORTS AVEC CHAUFFEUR PRIVÉ</p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card-service courses-longues-distances">
-              <p>COURSES LONGUES DISTANCES</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <div class="card-service evenements-sur-mesure">
-              <p>ÉVÈNEMENTS SUR MESURE</p>
+            <div class="card-service courses-longues-distances" data-aos="fade-right">
+              <p>COURSES LONGUES DISTANCES</p>
             </div>
           </div>
           <div class="col">
-            <div class="card-service conciergerie">
+            <div class="card-service evenements-sur-mesure" data-aos="fade-left">
+              <p>ÉVÈNEMENTS SUR MESURE</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-service conciergerie" data-aos="fade-right">
               <p>CONCIERGERIE</p>
             </div>
           </div>
           <div class="col">
-            <div class="card-service rdv-professionnels">
+            <div class="card-service rdv-professionnels" data-aos="fade-left">
               <p>RENDEZ-VOUS PROFESSIONNELS</p>
             </div>
           </div>
@@ -269,6 +273,10 @@
     <!-- END OF FOOTER   -->
 
 <!--     <script src="../main.js"></script> -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="../style.css"></script>
   </body>
 </html>

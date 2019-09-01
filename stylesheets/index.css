@@ -100,13 +100,14 @@ button#navbarDropdown.avatar.dropdown-toggle {
   margin: auto;
   padding-top: 55px;
   padding-left: 17px;
+  margin-bottom: 20px;
 }
 
 .clients {
   height: 250px;
 /*  width: 90%;*/
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .logos {
