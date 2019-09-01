@@ -8,6 +8,11 @@ ul {
   justify-content: space-between;
 }
 
+.navbar {
+  padding-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
 .languages-flags {
   display: flex;
   position: absolute;

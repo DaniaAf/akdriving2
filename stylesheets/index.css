@@ -53,7 +53,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
 
 .presentation {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -92,6 +92,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
 
 .clients p {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
   width: 80%;
   margin: auto;
   padding-top: 55px;
