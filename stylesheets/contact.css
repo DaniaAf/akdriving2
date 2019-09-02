@@ -116,7 +116,7 @@ textarea {
   width: 33.5% !important;
 }
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px) {
   #button-input {
     font-size: 30px;
     padding: 20px 50px;
@@ -126,7 +126,7 @@ textarea {
 
 /*MEDIA QUERIES MOBILE*/
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px) {
   .contact-content {
   display: grid;
   }
@@ -194,7 +194,7 @@ input.date-reservation-input{
   margin-right: 0;
 }
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px) {
   input.date-reservation-input {
     font-size: 30px;
     margin-right: auto;

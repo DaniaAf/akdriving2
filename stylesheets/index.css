@@ -23,13 +23,13 @@ button#navbarDropdown.avatar.dropdown-toggle {
   background-position: 50% 100%;
 }
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px)  {
   .background-content {
     height: 80vh;
   }
-  .all-page {
+/*  .all-page {
     height: 100vh;
-  }
+  }*/
 }
 
 .content {
@@ -81,7 +81,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
   font-size: 14.5px;
 }
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px)   {
   .call-to-action-about-us {
     font-size: 30px;
     padding: 20px 50px;
@@ -110,6 +110,26 @@ button#navbarDropdown.avatar.dropdown-toggle {
   margin-bottom: 50px;
 }
 
+@media (max-device-width: 576px)  {
+  p.slogan {
+    font-size: 22px;
+  }
+  p.presentation {
+    font-size: 30px;
+  }
+  .clients p {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .img-banner {
+    margin-left: 36%;
+  }
+  .clients {
+    margin-bottom: 100px;
+  }
+}
+
+
 .logos {
   height: 100%;
   width: 80%;
@@ -120,7 +140,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
   align-items: center;
 }
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px)   {
   .logos {
   width: 100%;
   height: 20vh;

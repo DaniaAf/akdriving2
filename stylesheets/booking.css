@@ -44,9 +44,6 @@ h2 {
 }
 
 .contact-form {
-  /*display: grid;*/
-/*  justify-content: center;
-  align-items: center;*/
   margin: 15px auto;
   width: 53%;
   min-height: 80%;
@@ -107,12 +104,12 @@ textarea {
 
 #button-input:hover {
   opacity: 0.8;
-}
+}*/
 
 
 /*MEDIA QUERIES MOBILE*/
 
-@media(max-width: 1000px) {
+/*@media(max-width: 1000px) {
   .contact-content {
   display: grid;
   }
@@ -151,11 +148,11 @@ textarea {
     font-size: 30px;
   }
 }
-
+*/
 
 /*ONLY FOR BOOKING CSS*/
 
-.date-reservation {
+/*.date-reservation {
   width: 80%;
   display: flex;
   margin: 0 auto;
