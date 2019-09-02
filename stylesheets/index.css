@@ -25,7 +25,7 @@ button#navbarDropdown {
   background-position: 50% 100%;
 }
 
-@media (max-device-width: 576px)  {
+@media (max-device-width: 660px)  {
   .background-content {
     height: 80vh;
   }
@@ -34,14 +34,6 @@ button#navbarDropdown {
   }*/
 }
 
-@media (max-width: 1000px)  {
-  .background-content {
-    height: 80vh;
-  }
-/*  .all-page {
-    height: 100vh;
-  }*/
-}
 
 .content {
   height: 50vh;
@@ -92,7 +84,7 @@ button#navbarDropdown {
   font-size: 14.5px;
 }
 
-@media (max-device-width: 576px)   {
+@media (max-device-width: 660px)   {
   .call-to-action-about-us {
     font-size: 30px;
     padding: 20px 50px;
@@ -101,17 +93,6 @@ button#navbarDropdown {
     font-size: 30.5px;
   }
 }
-
-@media (max-width: 1000px)   {
-  .call-to-action-about-us {
-    font-size: 30px;
-    padding: 20px 50px;
-  }
-  .call-to-action-about-us:hover {
-    font-size: 30.5px;
-  }
-}
-
 
 
 .clients p {
@@ -131,7 +112,7 @@ button#navbarDropdown {
   margin-bottom: 50px;
 }
 
-@media (max-device-width: 576px)  {
+@media (max-device-width: 660px)  {
   p.slogan {
     font-size: 22px;
   }
@@ -150,24 +131,6 @@ button#navbarDropdown {
   }
 }
 
-@media (max-width: 1000px)  {
-  p.slogan {
-    font-size: 22px;
-  }
-  p.presentation {
-    font-size: 30px;
-  }
-  .clients p {
-    font-size: 24px;
-    font-weight: 600;
-  }
-  .img-banner {
-    margin-left: 36%;
-  }
-  .clients {
-    margin-bottom: 100px;
-  }
-}
 
 
 .logos {
@@ -180,7 +143,7 @@ button#navbarDropdown {
   align-items: center;
 }
 
-@media (max-device-width: 576px)   {
+@media (max-device-width: 660px)   {
   .logos {
   width: 100%;
   height: 20vh;
@@ -190,15 +153,7 @@ button#navbarDropdown {
   }
 }
 
-@media (max-width: 1000px)   {
-  .logos {
-  width: 100%;
-  height: 20vh;
-  }
-  .clients p {
-    width: 100%;
-  }
-}
+
 
 @media (max-width: 1000px)   {
   .logos {
