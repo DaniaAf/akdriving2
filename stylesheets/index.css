@@ -8,14 +8,16 @@
 
 button#navbarDropdown {
   color: white;
+  background-color: transparent !important;
+  border: none;
 
 }
 
-button#navbarDropdown.avatar.dropdown-toggle {
+/*button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
 }
-
+*/
 .background-content {
   background-image: linear-gradient(180.36deg, #000000 0.29%, rgba(0, 0, 0, 0) 101.37%), url("../images/paris1.png");
   background-size: cover;
