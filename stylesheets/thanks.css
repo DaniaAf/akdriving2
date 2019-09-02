@@ -57,7 +57,7 @@ a.call-to-action-back-home {
 
 /*MEDIA QUERIES MOBILE*/
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px) {
   h4 {
     font-size: 70px;
   }

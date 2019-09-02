@@ -97,12 +97,15 @@ button#navbarDropdown {
 }
 
 
-@media(max-width: 1000px) {
+@media (max-device-width: 576px){
   .dropdown-menu>li>a {
     font-size : 50px;
   }
   img.flags {
     height: 50px;
+  }
+  button#navbarDropdown {
+    font-size: 80px;
   }
 }
 
