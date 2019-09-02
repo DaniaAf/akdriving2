@@ -34,6 +34,15 @@ button#navbarDropdown {
   }*/
 }
 
+@media (max-width: 1000px)  {
+  .background-content {
+    height: 80vh;
+  }
+/*  .all-page {
+    height: 100vh;
+  }*/
+}
+
 .content {
   height: 50vh;
   display: grid;
@@ -93,7 +102,7 @@ button#navbarDropdown {
   }
 }
 
-@media (max-width: 576px)   {
+@media (max-width: 1000px)   {
   .call-to-action-about-us {
     font-size: 30px;
     padding: 20px 50px;
@@ -141,7 +150,7 @@ button#navbarDropdown {
   }
 }
 
-@media (max-width: 576px)  {
+@media (max-width: 1000px)  {
   p.slogan {
     font-size: 22px;
   }
@@ -181,7 +190,7 @@ button#navbarDropdown {
   }
 }
 
-@media (max-width: 576px)   {
+@media (max-width: 1000px)   {
   .logos {
   width: 100%;
   height: 20vh;
