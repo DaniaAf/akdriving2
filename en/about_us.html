@@ -2,31 +2,80 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!--     dropdown bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i,400,400i,600,600i,700&display=swap" rel="stylesheet">
 
-    <!-- favicon -->
+   <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon.ico">
 
   <!--   <link rel="stylesheet" href="../style.css"> -->
     <link rel="stylesheet" href="../stylesheets/navbar.css">
     <link rel="stylesheet" href="../stylesheets/footer.css">
+    <link rel="stylesheet" href="../stylesheets/about_us.css">
+
     <meta charset="UTF-8">
     <title>akdriving</title>
 
   </head>
   <body>
-    <!-- NAVBAR -->
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <div class="logo-navbar">
-       <a href="index.html"><img src="../images/final-black-logo.png" alt=""></a>
-      </div>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="about_us.html">ABOUT US</a>
+    <!-- NAVBAR -->
+    <div class="hidden-xs hidden-sm">
+      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+        <div class="logo-navbar">
+         <a href="../../en/index.html"><img src="../images/final-black-logo.png" alt=""></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="about_us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="test" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a href="booking.html">BOOKING</a>
+            </li>
+          </ul>
+          <div class="languages-flags">
+            <a href="about_us.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+            <a href="../pages/about_us.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- DROPDOWN NAVBAR FOR MOBILE -->
+    <div class="navbar-wagon-item hidden-md hidden-lg">
+      <div class="dropdown">
+
+        <button class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" data-toggle="dropdown" ></i></button>
+
+        <ul class="dropdown-menu dropdown-menu-left navbar-wagon-dropdown-menu">
+          <li class="nav-item">
+          <a href="index.html">HOME</a>
           </li>
           <li class="nav-item">
             <a class="test" href="services.html">SERVICES</a>
@@ -37,19 +86,94 @@
           <li class="nav-item">
             <a href="booking.html">BOOKING</a>
           </li>
+          <li class="nav-item">
+            <a href="about_us.html"><img src="../images/en_flag.png" alt="" class= "flags"> ENGLISH</a>
+          </li>
+          <li class="nav-item">
+            <a href="../pages/about_us.html"><img src="../images/fr_flag.png" alt="" class= "flags"> FRANCAIS</a>
+          </li>
         </ul>
       </div>
-
-      <a href="../en/about_us.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
-      <a href="../pages/about_us.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
-
     </div>
     <!-- END OF NAVBAR -->
 
 
 
 
-    <h1 class="test">english about us</h1>
+    <div class="presentation-part">
+      <h3 class="test">ABOUT US</h3>
+      <p>Grands groupes, PME, célébrités, agences de production, particuliers … tous nous font confiance depuis maintenant 8 ans et utilisent nos services à des fins professionnelles mais également privés bénéficiant ainsi d’un service sur-mesure adapté qui leur ressemble.
+      <br><br>
+      Une simple course, un transfert (gares et aéroports), une mise à disposition, vous disposerez d’un chauffeur privé dans un véhicule haut de gamme , ainsi que l’aide de notre conciergerie et de gestion d’événements si besoin (exple à donner ?, moyennant un supplément ?)
+      <br> <br>
+      Présent lors de nombreux événements immanquables (Festival de Cannes, Fashion Week, concerts ...? ) depuis les débuts d’AK Driving Paris, nous saurons vous servir au mieux lors de ce type d’événements également.</p>
+    </div>
+
+
+    <img class="qui-sommes-nous-paris" src="../images/qui-sommes-nous-paris.png" alt="">
+
+    <div class="data-and-logo">
+      <div class="drivers">
+        <img src="../images/driver-logo-black.png" alt="" id="driver-logo" class="img-data">
+        <p class="data">50+ chauffeurs</p>
+      </div>
+
+      <div class="cars">
+        <img src="../images/car-logo-black.png" alt="" id="car-logo" class="img-data">
+        <p class="data">5 gammes de véhicules</p>
+      </div>
+
+      <div class="times">
+        <img src="../images/clock-logo-black.png" alt="" id="time-logo" class="img-data">
+        <p class="data">24h/24 - 7j/7</p>
+      </div>
+    </div>
+
+
+    <div class="trust-us">
+      <h3>ILS NOUS FONT CONFIANCE...</h3>
+      <div class="container trust-us-container">
+        <div class="row">
+          <div class="col col-logo">
+            <img src="../images/chanel-logo.png" alt="" class="logos-clients img-fluid" id="chanel">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/saint-laurent-logo.png" alt="" class="logos-clients img-fluid" id="saint-laurent">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/Le_monde_logo.png" alt="" class="logos-clients img-fluid" id="le-monde">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/accor-logo.png" alt="" class="logos-clients img-fluid" id="accor">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/cartier-logo.png" alt="" class="logos-clients img-fluid" id="cartier">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-logo">
+            <img src="../images/dior-logo.png" alt="" class="logos-clients img-fluid" id="dior">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/celine-logo.png" alt="" class="logos-clients img-fluid" id="celine">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/christies-logo.png" alt="" class="logos-clients img-fluid" id="christies">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/regus-logo.png" alt="" class="logos-clients img-fluid" id="regus">
+          </div>
+          <div class="col col-logo">
+            <img src="../images/jm-weston-logo.png" alt="" class="logos-clients img-fluid" id="weston">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div clas="call-action-contact">
+      <h3>REJOIGNEZ NOUS</h3>
+      <a href="contact.html" class="contact-button">CONTACT</a>
+    </div>
 
 
 
@@ -57,7 +181,7 @@
   <div class="footer">
     <div class="company-info">
       <div class= "logo-company">
-        <a href="index.html"><img src="../images/final-black-logo.png" alt=""></a>
+        <a href="../index.html"><img src="../images/final-black-logo.png" alt=""></a>
       </div>
       <p>AK Driving <br> sasu au capital de 7500€ <br> 15 Rue des Pâquerettes <br>92160 Antony <br> RCS Nanterre : 810 064 600</p>
     </div>

@@ -7,51 +7,130 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i,400,400i,600,600i,700&display=swap" rel="stylesheet">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
+    <!--     dropdown bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- link css stylesheets -->
     <link rel="stylesheet" href="../stylesheets/navbar.css">
     <link rel="stylesheet" href="../stylesheets/footer.css">
+    <link rel="stylesheet" href="../stylesheets/index.css">
     <meta charset="UTF-8">
     <title>akdriving</title>
 
+
   </head>
   <body>
+
+<!--   CONTENT BANNER -->
+<div class="all-page">
+  <div class="background-content">
+
     <!-- NAVBAR -->
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <div class="logo-navbar">
-       <a href="index.html"><img src="../images/final-white-logo.png" alt=""></a>
+    <div class="hidden-xs hidden-sm">
+      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+        <div class="logo-navbar">
+         <a href="../en/index.html"><img src="../images/final-white-logo.png" alt=""></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="about_us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="test" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item ">
+              <a href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a href="booking.html">BOOKING</a>
+            </li>
+          </ul>
+          <div class="languages-flags">
+            <a href="index.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
+            <a href="../index.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
+          </div>
+        </div>
       </div>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a href="../en/about_us.html">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="test" href="../en/services.html">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a href="../en/contact.html">CONTACT</a>
-          </li>
-          <li class="nav-item">
-            <a href="booking.html">BOOKING</a>
-          </li>
-        </ul>
-      </div>
-
-      <a href="../en/index.html"><img src="../images/en_flag.png" alt="" class= "flags"></a>
-      <a href="../index.html"><img src="../images/fr_flag.png" alt="" class= "flags"></a>
-
     </div>
     <!-- END OF NAVBAR -->
 
-    <h1>english index</h1>
+
+    <!-- DROPDOWN NAVBAR FOR MOBILE -->
+    <div class="navbar-wagon-item hidden-md hidden-lg">
+      <div class="dropdown">
+
+        <button class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" data-toggle="dropdown" ></i></button>
+
+        <ul class="dropdown-menu dropdown-menu-left navbar-wagon-dropdown-menu">
+          <li class="nav-item dropdown-nav">
+          <a href="about_us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown-nav">
+            <a class="test" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item dropdown-nav">
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item dropdown-nav">
+            <a href="booking.html">BOOKING</a>
+          </li>
+          <li class="nav-item dropdown-nav">
+            <a href="index.html"><img src="../images/en_flag.png" alt="" class= "flags"> ENGLISH</a>
+          </li>
+          <li class="nav-item dropdown-nav">
+            <a href="../index.html"><img src="../images/fr_flag.png" alt="" class= "flags"> FRANCAIS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF NAVBAR -->
+
+    <div class="content">
+      <div class="logo-slogan">
+        <img src="../images/final-white-logo.png" alt="" class="img-banner">
+        <p class="slogan">L'EXCELLENCE POUR VOUS CONDUIRE</p>
+      </div>
+      <p class="presentation">Votre service de transport et de conciergerie de luxe privé</p>
+      <a class="call-to-action-about-us" href="../en/about_us.html">ABOUT US</a>
+    </div>
+
+  </div>
+
+    <div class="clients">
+      <p>ILS NOUS FONT CONFIANCE...</p>
+      <div class="logos">
+        <img src="../images/regus-logo.png" alt="" class="logos-clients" id="regus">
+        <img src="../images/chanel-logo.png" alt="" class="logos-clients" id="chanel">
+        <img src="../images/saint-laurent-logo.png" alt="" class="logos-clients" id="saint-laurent">
+        <img src="../images/Le_monde_logo.png" alt="" class="logos-clients" id="le-monde">
+        <img src="../images/accor-logo.png" alt="" class="logos-clients" id="accor">
+        <img src="../images/cartier-logo.png" alt="" class="logos-clients" id="cartier">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
 
     <!-- FOOTER   -->
     <div class="footer">
       <div class="company-info">
         <div class= "logo-company">
-          <a href="index.html"><img src="../images/final-black-logo.png" alt=""></a>
+          <a href="../index.html"><img src="../images/final-black-logo.png" alt=""></a>
         </div>
         <p>AK Driving <br> sasu au capital de 7500€ <br> 15 Rue des Pâquerettes <br>92160 Antony <br> RCS Nanterre : 810 064 600</p>
       </div>
@@ -72,9 +151,8 @@
 
 
 
-
+<!--     <script src="main.js"></script> -->
     <script src="style.css"></script>
-    <script src="../style.css"></script>
-
   </body>
 </html>
+
