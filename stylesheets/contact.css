@@ -1,7 +1,7 @@
 .contact-content {
   display: flex;
   font-family: 'Source Sans Pro', sans-serif;
-  min-height: calc(100vh - 163.99px);
+  min-height: 111vh;
 }
 
 .left-part {
@@ -10,6 +10,18 @@
   justify-content: center;
   align-items: center;
   padding: 88px 0px;
+}
+
+.contact-us {
+  margin-top: 81px;
+}
+
+.call-us {
+  margin-bottom: 80%;
+}
+
+.call-us-reservation {
+  margin-bottom: 60%;
 }
 
 .icon-and-text-contact {
@@ -52,8 +64,8 @@ h2 {
 /*  justify-content: center;
   align-items: center;*/
   margin: 15px auto;
-  width: 53%;
-  min-height: 80%;
+  width: 66%;
+  min-height: 60%;
   background-color: #E5E5E5;
   border-radius: 22px;
 
@@ -62,6 +74,10 @@ h2 {
 form {
   margin-top: 13%;
   min-height: 80%;
+}
+
+.contact-form-only {
+  margin-top: 16% !important;
 }
 
  #form-title {
@@ -149,11 +165,13 @@ textarea {
     padding: 0;
     margin: 39px 0px 78px 0px;
   }
-  .call-us {
-    margin-bottom: 18px;
+  .call-us  {
+    margin-bottom: 0px;
+    margin-top: 6%;
   }
   .call-us-reservation{
-    margin-bottom: 20px !important;
+    margin-bottom: 0px;
+    margin-top: 6%;
   }
   .right-part {
     width: 100%;
