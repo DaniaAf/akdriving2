@@ -137,9 +137,15 @@
               <input class="date-reservation-input" type="date" name="date" placeholder="jj/mm/aaaa" required>
             </div>
             <p id="message-title">Message:</p>
-            <textarea name="message_reservation"
+            <textarea class="hidden-md hidden-lg" name="message_reservation_mobile"
               placeholder="(Détails / Lieu de prise en charge / Destination / Nombre de personnes / Demandes supplémentaires...)"
-              required ></textarea>
+              ></textarea>
+            <textarea class="hidden-sm hidden-xs" name="message_reservation_ordi" placeholder="Détails:
+        - Lieu de prise en charge,
+        - Destination,
+        - Nombre de personnes,
+        - Demandes supplémentaires..."
+              ></textarea>
             <input id="button-input" type="submit" value="ENVOYER">
           </form>
           <!-- END OF RESERVATION -->
