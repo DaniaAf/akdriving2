@@ -10,7 +10,7 @@ h3 {
 .presentation-part {
   display: grid;
   width: 45%;
-  margin: 110px auto 80px auto;
+  margin: 110px auto;
   text-align:justify;
 }
 
@@ -44,7 +44,7 @@ h3 {
   display: flex;
   width: 60%;
   justify-content: space-around;
-  margin: 60px auto;
+  margin: 110px auto 60px auto;
 }
 
 @media(max-width: 1000px) {
@@ -88,7 +88,7 @@ p.data {
 
 .trust-us-container {
   background-color: white;
-  width: 60%;
+  width: 77%;
   height: 450px;
   margin: 50px auto 100px auto;
   display: grid;
@@ -96,6 +96,7 @@ p.data {
   justify-content: center;
   padding: 0 ;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 11px;
 }
 
 @media(max-width: 1000px) {
@@ -189,12 +190,14 @@ p.data {
   text-decoration: none;
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
   background-color: #ABABAB;
   width: fit-content;
-  padding: 7px 35px;
+  padding: 11px 35px;
   border-radius: 5px;
   display: flex;
   margin: 20px auto 60px auto;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contact-button:hover {
