@@ -92,8 +92,15 @@ img.flags{
 
 button#navbarDropdown {
   font-size: 50px;
+  background-color: transparent !important;
+  border: none !important;
 /*  position: relative;
   left: 95%;*/
+}
+
+button#navbarDropdown.avatar.dropdown-toggle {
+    background-color: transparent !important;
+  border: none !important;
 }
 
 
