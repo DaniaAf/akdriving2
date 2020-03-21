@@ -56,8 +56,7 @@ h3 {
 }
 
 
-
-.transports-avec-chauffeur-prive {
+.mise-a-disposition {
   background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/transports-avec-chauffeur-prive.jpg");
   background-size: cover;
   height: 300px;
@@ -69,7 +68,7 @@ h3 {
   align-items: center;
 }
 
-.courses-longues-distances {
+.evenements {
   background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/courses-longues-distances.jpg");
   background-size: cover;
   height: 300px;
@@ -81,7 +80,7 @@ h3 {
   align-items: center;
 }
 
-.evenements-sur-mesure {
+.excursions {
   background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/evenements-sur-mesure.jpg");
   background-size: cover;
   height: 300px;
@@ -105,7 +104,7 @@ h3 {
   align-items: center;
 }
 
-.rdv-professionnels {
+.national-et-international{
   background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/rdv-professionnels.jpg");
   background-size: cover;
   height: 300px;
@@ -131,6 +130,39 @@ h3 {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+}
+
+.original p {
+  margin-top: 45%;
+}
+
+.overlay p {
+  margin-top: 30%;
+}
+
+.overlay-mise-a-disposition p {
+  margin-top: 29%;
+  font-size: 23px;
+}
+
+.overlay-evenements p{
+  font-size: 18px;
+  margin: 19% 5px;
+}
+
+.overlay-excursions p {
+  font-size: 20px;
+  margin: 26% 7px;
+}
+
+.overlay-conciergerie p {
+  font-size: 20px;
+    margin: 21% 7px;
+}
+
+.overlay-national-et-international p {
+  font-size: 22px;
+  margin: 14% 5px;
 }
 
 
@@ -194,3 +226,80 @@ button#navbarDropdown.avatar.dropdown-toggle {
   border: none;
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GRID */
+
+.grid { max-width: 940px; width: 100%; margin: 0 auto; }
+
+.four {
+  width: 32.26%;
+}
+
+/* COLUMNS */
+
+
+/* GENERAL STYLES FOR BOX AND OVERLAY */
+
+.box {
+  display: block;
+/*  width: 100%;
+  height: 200px;*/
+  overflow: hidden;
+  background-color: #bbb;
+  text-align: center;
+  position: relative;
+}
+
+.overlay{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+/* SLIDE UP */
+
+.slide-up .overlay{
+  background-color: #cfcbcb;
+/*  line-height: 200px;
+*/  color: #fff;
+  transform: translateY(100%);
+  -webkit-transition: transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.slide-up .box:hover .overlay{
+  transform: translateY(0);
+}
+
