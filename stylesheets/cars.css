@@ -187,3 +187,89 @@ button#navbarDropdown.avatar.dropdown-toggle {
   border: none;
 }
 */
+
+
+
+h3 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+
+
+/*banner-image*/
+
+.paris-img{
+  background-size: cover;
+  height: 550px;
+}
+
+
+.paris-img.paris2 {
+  background-image:url("../images/paris2-services.png");
+  background-position: 50% 50%;
+}
+
+
+
+
+/*caroussel */
+.cars-div-img {
+  height: 400px;
+}
+
+#berline {
+  height: 400px;
+  width: 400px;
+}
+
+#prestige{
+  height: 320px;
+  width: 400px;
+}
+
+#van{
+  height: 320px;
+  width: 450px;
+}
+
+#carouselExampleControls {
+  width: 80%;
+  margin: 50px auto 100px auto;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin: auto;
+}
+
+.car-img-and-prices {
+  display: flex;
+  justify-content: space-around;
+}
+
+.car-prices {
+  display: flex;
+  align-items: center;
+}
+
+.cars-title {
+  margin-bottom: 50px;
+}
+
+.fas.fa-chevron-left{
+  color: black;
+  font-size: 23px;
+}
+
+.fas.fa-chevron-right{
+  color: black;
+  font-size: 23px;
+}
+
+
+button#navbarDropdown.avatar.dropdown-toggle {
+  background-color: transparent !important;
+  border: none;
+}

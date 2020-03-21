@@ -17,10 +17,10 @@ h3 {
   background-position: 50% 60%;
 }
 
-.paris-img.paris2 {
+/*.paris-img.paris2 {
   background-image:url("../images/paris2-services.png");
   background-position: 50% 50%;
-}
+}*/
 
 
 /*services cards part*/
@@ -135,7 +135,7 @@ h3 {
 
 
 /*caroussel */
-.cars-div-img {
+/*.cars-div-img {
   height: 400px;
 }
 
@@ -193,3 +193,4 @@ button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
 }
+*/
