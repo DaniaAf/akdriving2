@@ -1,7 +1,7 @@
 .contact-content {
   display: flex;
   font-family: 'Source Sans Pro', sans-serif;
-  min-height: 111vh;
+  min-height: calc(100vh - 163.99px);
 }
 
 .left-part {
@@ -9,7 +9,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 88px 0px;
 }
 
 .contact-us {
@@ -17,7 +16,7 @@
 }
 
 .call-us {
-  margin-bottom: 80%;
+  margin-bottom: 50%;
 }
 
 .call-us-reservation {
