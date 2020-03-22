@@ -220,19 +220,52 @@ h3 {
 }
 
 #berline {
-  height: 400px;
-  width: 400px;
+/*  height: 400px;
+  width: 400px;*/
+  position: absolute;
+  left: 100px;
+  width: 550px
 }
 
 #prestige{
-  height: 320px;
-  width: 400px;
+  height: 275px;
+  width: 350px;
+  position: absolute;
+  left: 175px;
+  top: 30px;
 }
 
 
+#honda {
+  height: 254px;
+  width: 380px;
+  position: absolute;
+  top: 20px;
+  left: 145px;
+}
+
 #van{
-  height: 320px;
-  width: 450px;
+ /* height: 320px;
+  width: 450px;*/
+  height: 254px;
+  width: 380px;
+    position: absolute;
+    top: 20px;
+    left: 140px;
+}
+
+#range-rover {
+    height: 230px;
+    width: 350px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#bus {
+  height: 255px;
+  position: absolute;
+  left: 277px;
 }
 
 #carouselExampleControls {
