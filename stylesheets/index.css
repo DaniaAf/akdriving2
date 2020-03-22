@@ -22,7 +22,7 @@ button#navbarDropdown {
   background-image: url("../images/paris-index.jpg");
   background-size: cover;
   height: 100vh;
-  /*background*/-position: 50% 47%;
+  /*background-position: 50% 47%;*/
   background-position: 29% 30%;
 }
 
