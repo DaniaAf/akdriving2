@@ -19,10 +19,11 @@ button#navbarDropdown {
 }
 */
 .background-content {
-  background-image: linear-gradient(180.36deg, #000000 0.29%, rgba(0, 0, 0, 0) 101.37%), url("../images/paris1.png");
+  background-image: url("../images/paris-index.jpg");
   background-size: cover;
   height: 100vh;
-  background-position: 50% 100%;
+  /*background*/-position: 50% 47%;
+  background-position: 29% 30%;
 }
 
 @media (max-device-width: 660px)  {
@@ -41,30 +42,54 @@ button#navbarDropdown {
   align-items: center;
   justify-content: center;
   /*  margin top ok pour tous les appareils ?*/
-  margin-top: 90px;
+  /*margin-top: 90px;*/
+  margin-top: 60px;
+}
+
+.logo-with-driving-paris{
+  margin: auto;
+  width: fit-content;
 }
 
 .logo-slogan {
   margin: auto;
 }
 
-.slogan {
-  color: white;
+.driving-paris-logo {
+  color: black;
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Audio wide', sans-serif;
+  letter-spacing: 8px;
+  margin-left: 2px;
+  width: fit-content;
+}
+
+
+.slogan {
+  color: black;
+  font-family: Audiowide, sans-serif;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
 }
 
 .presentation {
-  color: white;
+  color: black;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  width: fit-content;
+/*  margin: auto;*/
+    margin: 20px auto;
 }
 
 
 .img-banner {
-  height: 56px;
-/*  margin left ok pour tous les appareils ?*/
-  margin-left: 28%;
+  /*height: 56px;*/
+  /*  margin left ok pour tous les appareils ?*/
+  /*margin-left: 26%;*/
+  height: 100px;
 }
 
 .call-to-action-about-us {
@@ -75,7 +100,8 @@ button#navbarDropdown {
   width: fit-content;
   padding: 11px 35px;
   border-radius: 5px;
-  margin: auto;
+  /*margin: auto;*/
+  margin: 15% auto 0;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -189,10 +215,10 @@ button#navbarDropdown {
   margin-top: -18px;
 }
 
-#regus {
-  width: 100px;
+#viparis {
+  width: 170px;
   margin-top: -7px;
-  height: 60px;
+  height: 52px;
 }
 
 #cartier{
