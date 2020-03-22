@@ -295,7 +295,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
 /* SLIDE UP */
 
 .slide-up .overlay{
-  background-color: #cfcbcb;
+  background-color: #3c3b3c;
 /*  line-height: 200px;
 */  color: #fff;
   transform: translateY(100%);
