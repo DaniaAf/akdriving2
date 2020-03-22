@@ -44,8 +44,9 @@ h3 {
 }
 
 .transferts-aeroport{
-  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/transferts-aeroport-gare.jpg");
+  background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/transfers-service.jpeg");
   background-size: cover;
+  background-position: 50%;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -57,8 +58,9 @@ h3 {
 
 
 .mise-a-disposition {
-  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/transports-avec-chauffeur-prive.jpg");
+  background-image: linear-gradient(174.91deg, #232323 7.6%, rgba(0, 0, 0, 0) 100.93%), url("../images/driver-service.jpeg");
   background-size: cover;
+  background-position: 25%;
   height: 300px;
   width: 230px;
   border-radius: 2px;
@@ -69,7 +71,7 @@ h3 {
 }
 
 .evenements {
-  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/courses-longues-distances.jpg");
+  background-image: url("../images/courses-longues-distances.jpg");
   background-size: cover;
   height: 300px;
   width: 230px;
@@ -81,7 +83,7 @@ h3 {
 }
 
 .excursions {
-  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/evenements-sur-mesure.jpg");
+  background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/excursions-service.jpeg");
   background-size: cover;
   height: 300px;
   width: 230px;
@@ -93,7 +95,7 @@ h3 {
 }
 
 .conciergerie {
-  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/conciergerie.jpg");
+  background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/conciergerie-service.jpeg");
   background-size: cover;
   height: 300px;
   width: 230px;
@@ -105,7 +107,7 @@ h3 {
 }
 
 .national-et-international{
-  background-image: linear-gradient(179.91deg, #000000 8.6%, rgba(0, 0, 0, 0) 99.93%), url("../images/rdv-professionnels.jpg");
+  background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/transferts-aeroport-gare.jpg");
   background-size: cover;
   height: 300px;
   width: 230px;
