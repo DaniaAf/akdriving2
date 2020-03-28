@@ -79,4 +79,6 @@ a.call-to-action-back-home {
 button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
+  margin-left: -50px !important; /* A REVOIR */
+
 }

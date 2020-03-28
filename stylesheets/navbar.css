@@ -47,7 +47,7 @@ ul {
 }
 
 img.flags{
-  height: 20px;
+  height: 30px;
 }
 
 
@@ -94,13 +94,17 @@ button#navbarDropdown {
   font-size: 50px;
   background-color: transparent !important;
   border: none !important;
+  margin-left: -50px !important; /* A REVOIR */
+
 /*  position: relative;
   left: 95%;*/
 }
 
 button#navbarDropdown.avatar.dropdown-toggle {
-    background-color: transparent !important;
+  background-color: transparent !important;
   border: none !important;
+  margin-left: -50px !important; /* A REVOIR */
+
 }
 
 
