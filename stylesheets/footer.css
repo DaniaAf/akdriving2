@@ -69,5 +69,14 @@
   margin-right: 8px;
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 24px !important;
+}
+
+.div-contact{
+  display: block
+}
+
+.footer-copyright.mobile{
+  width: fit-content;
+  margin: auto;
 }

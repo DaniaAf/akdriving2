@@ -34,7 +34,8 @@
 
 h2 {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 100;
+  font-family: 'Audiowide', cursive;
 }
 
 .far.fa-envelope {
@@ -225,4 +226,6 @@ input.date-reservation-input{
 button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
+  margin-left: -50px !important; /* A REVOIR */
+
 }

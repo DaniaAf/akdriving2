@@ -192,7 +192,7 @@ button#navbarDropdown.avatar.dropdown-toggle {
 
 h3 {
   font-size: 24px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Audiowide', cursive;
   text-align: center;
 }
 
@@ -308,4 +308,5 @@ h3 {
 button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
+  margin-left: -50px !important; /* A REVOIR */
 }
