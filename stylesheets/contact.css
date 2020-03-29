@@ -51,7 +51,7 @@ h2 {
   width: 50%;
   background-image: url("../images/test.png");
   background-size: 100%;
-  background-position: 0 48%;
+  background-position: 0 50%;
   background-size: cover;
   display: grid;
   align-items: center;
@@ -171,8 +171,8 @@ textarea {
     margin: 39px 0px 78px 0px;
   }
   .right-part {
-    background-position: -150px 48%;
-    background-size: 130%;
+    background-position: -164px 50%;
+    background-size: 133%;
   }
 
   .call-us  {
@@ -213,8 +213,8 @@ and (max-device-width : 1024px) {
     margin-top: 68%;
   }
   .right-part {
-    background-position: -120px 48%;
-    background-size: 150%;
+    background-position: -173px 50%;
+    background-size: 170%;
   }
 }
 
