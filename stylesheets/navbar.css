@@ -16,7 +16,7 @@ ul {
 .languages-flags {
   display: flex;
   position: absolute;
-  right: 0%;
+  right: 10px;
 }
 
 .navbar-lewagon {
@@ -48,6 +48,7 @@ ul {
 
 img.flags{
   height: 30px;
+  margin-left: 18px;
 }
 
 

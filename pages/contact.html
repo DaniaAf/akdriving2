@@ -47,7 +47,7 @@
               <a class="test" href="services.html">PRESTATIONS</a>
             </li>
             <li class="nav-item">
-              <a href="cars.html">VEHICULES</a>
+              <a href="cars.html">VÉHICULES</a>
             </li>
             <li class="nav-item active">
               <a href="contact.html">CONTACT</a>
@@ -109,7 +109,7 @@
               <a class="test" href="services.html">PRESTATIONS</a>
             </li>
             <li class="nav-item">
-              <a href="cars.html">VEHICULES</a>
+              <a href="cars.html">VÉHICULES</a>
             </li>
             <li class="nav-item">
               <a href="../en/contact.html"><img src="../images/en_flag.png" alt="" class= "flags"> ENGLISH</a>
@@ -147,18 +147,31 @@
       <div class="right-part">
         <div class="contact-form">
           <!-- FORM FOR CONTACT -->
-          <form class="contact-form-only" action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
+<!--           <form class="contact-form-only" action="https://formsubmit.io/send/fbf8db38-51b3-435a-a1a6-f1b90981fa82
           " method="POST">
             <p id="form-title">Votre demande</p>
             <input name="_redirect" type="hidden" value="https://ak-driving.herokuapp.com/pages/thanks">
             <input type="text" name="name" placeholder="Nom" required>
             <input type="email" name="_replyto" placeholder="Email" required>
             <p id="message-title">Message:</p>
-            <!-- <input id="message-input" type="text" title="Message" name="message" placeholder="votre demande" required> -->
             <textarea name="message" placeholder="votre message/demande..." required ></textarea>
             <input id="button-input" type="submit" value="ENVOYER">
-          </form>
+          </form> -->
           <!-- END OF FORM -->
+          <form action="https://formsubmit.co/contact@akdrivingparis.com" method="POST" />
+            <input type="text" name="name" placeholder="Nom" required>
+            <input type="hidden" name="_replyto">
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Votre message/demande..." required ></textarea>
+            <input type="hidden" name="_next" value="https://ak-driving.herokuapp.com/pages/thanks">
+            <input type="hidden" name="_subject" value="Email from AK Driving Paris">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Merci pour votre email, nous revenons vers vous dans les plus brefs délais.">
+            <input type="hidden" name="_template" value="box">
+            <input id="button-input" type="submit" value="ENVOEYR">
+          </form>
+
         </div>
       </div>
     </div>

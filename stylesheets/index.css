@@ -143,14 +143,15 @@
 
 @media (max-device-width: 660px)  {
   p.slogan {
-    font-size: 22px;
+    font-size: 35px;
   }
   p.presentation {
-    font-size: 30px;
+    font-size: 25px;
   }
   .clients p {
     font-size: 24px;
     font-weight: 600;
+    padding-left: 30px;
   }
 /*  .img-banner {
     margin-left: 36%;

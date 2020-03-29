@@ -44,8 +44,8 @@ h3 {
 }
 
 .transferts-aeroport{
-  /*background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/transfers-service.jpeg");*/
-  background-image: url("../images/transfers-service.jpeg");
+  background-image: linear-gradient(174.91deg, #484848 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/transfers-service.jpeg");
+  /*background-image: url("../images/transfers-service.jpeg");*/
   background-size: cover;
   background-position: 50%;
   height: 300px;
@@ -59,8 +59,8 @@ h3 {
 
 
 .mise-a-disposition {
-  /*background-image: linear-gradient(174.91deg, #232323 7.6%, rgba(0, 0, 0, 0) 100.93%), url("../images/driver-service.jpeg");*/
-  background-image: url("../images/driver-service.jpeg");
+  background-image: linear-gradient(174.91deg, #484848 7.6%, rgba(0, 0, 0, 0) 100.93%), url("../images/driver-service.jpeg");
+  /*background-image: url("../images/driver-service.jpeg");*/
   background-size: cover;
   background-position: 25%;
   height: 300px;
@@ -73,7 +73,8 @@ h3 {
 }
 
 .evenements {
-  background-image: url("../images/reunion.jpeg");
+  background-image: linear-gradient(174.91deg, #484848 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/reunion.jpeg");
+  /*background-image: url("../images/reunion.jpeg");*/
   background-size: cover;
   height: 300px;
   width: 230px;
@@ -85,8 +86,8 @@ h3 {
 }
 
 .excursions {
-  /*background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/chateau.jpeg");*/
-  background-image: url("../images/chateau.jpeg");
+  background-image: linear-gradient(174.91deg, #484848 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/chateau.jpeg");
+  /*background-image: url("../images/chateau.jpeg");*/
   background-size: cover;
   background-position: 80%;
   height: 300px;
@@ -99,8 +100,8 @@ h3 {
 }
 
 .conciergerie {
-  /*background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/conciergerie-service.jpeg");*/
-  background-image: url("../images/conciergerie-service.jpeg");
+  background-image: linear-gradient(174.91deg, #484848 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/conciergerie-service.jpeg");
+  /*background-image: url("../images/conciergerie-service.jpeg");*/
   background-size: cover;
   height: 300px;
   width: 230px;
@@ -112,8 +113,8 @@ h3 {
 }
 
 .national-et-international{
-  /*background-image: linear-gradient(174.91deg, #232323 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/transferts-aeroport-gare.jpg");*/
-  background-image: url("../images/transferts-aeroport-gare.jpg");
+  background-image: linear-gradient(174.91deg, #484848 -7.4%, rgba(0, 0, 0, 0) 100.93%), url("../images/transferts-aeroport-gare.jpg");
+  /*background-image: url("../images/transferts-aeroport-gare.jpg");*/
   background-size: cover;
   height: 300px;
   width: 230px;

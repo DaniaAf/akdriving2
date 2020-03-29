@@ -49,33 +49,34 @@ h2 {
 
 .right-part {
   width: 50%;
-  background-image: url("../images/background-nous-contacter.jpg");
+  background-image: url("../images/test.png");
+  background-size: 100%;
+  background-position: 0 48%;
   background-size: cover;
   display: grid;
   align-items: center;
 }
 
-.right-part-reservation{
+/*.right-part-reservation{
   background-image: url("../images/background-reservation.jpg") !important;
-}
+}*/
 
 .contact-form {
   /*display: grid;*/
 /*  justify-content: center;
   align-items: center;*/
-  margin: 15px auto;
-  width: 66%;
+  margin: 0px auto;
+  width: 45%;
   min-height: 60%;
-  background-color: #E5E5E5;
   border-radius: 22px;
 
 }
 
-form {
+/*form {
   margin-top: 13%;
   min-height: 80%;
 }
-
+*/
 .contact-form-only {
   margin-top: 16% !important;
 }
@@ -90,7 +91,6 @@ form {
 input {
   width: 80%;
   margin-bottom: 15px;
-  background-color: #E5E5E5;
   display: grid;
   margin: 28px auto;
   border: none;
@@ -105,7 +105,7 @@ textarea {
   display: grid;
   margin: 3px auto;
   border-style: ridge !important;
-  height: 160px;
+  height: 270px;
 }
 
 #message-title {
@@ -149,10 +149,13 @@ textarea {
   display: grid;
   }
   .contact-form {
-    width: 80%;
+    width: 60%;
     min-height: 59%;
     margin-top: 65px;
     margin-bottom: 65px;
+  }
+  input{
+    background-color: white;
   }
   textarea{
     height: 459px;
@@ -167,6 +170,11 @@ textarea {
     padding: 0;
     margin: 39px 0px 78px 0px;
   }
+  .right-part {
+    background-position: -150px 48%;
+    background-size: 130%;
+  }
+
   .call-us  {
     margin-bottom: 0px;
     margin-top: 6%;
@@ -189,6 +197,24 @@ textarea {
   }
   textarea {
     font-size: 30px;
+  }
+}
+
+
+/*MEDIA QUERIES IPAD*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  textarea {
+    height: 250px;
+  }
+  form {
+    margin-top: 68%;
+  }
+  .right-part {
+    background-position: -120px 48%;
+    background-size: 150%;
   }
 }
 
