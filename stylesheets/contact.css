@@ -96,6 +96,7 @@ input {
   border: none;
   border-bottom: solid;
   border-bottom-style: ridge;
+  border: solid 1px #e2e2e2;
 }
 
 textarea {
@@ -144,7 +145,7 @@ textarea {
 /*MEDIA QUERIES MOBILE*/
 
 /*@media (max-device-width: 576px) {*/
-@media (max-device-width: 660px) {
+@media (max-device-width: 767px) {
   .contact-content {
   display: grid;
   }
@@ -156,6 +157,7 @@ textarea {
   }
   input{
     background-color: white;
+    border: solid 1px #e2e2e2;
   }
   textarea{
     height: 459px;
@@ -215,6 +217,9 @@ and (max-device-width : 1024px) {
   .right-part {
     background-position: -173px 50%;
     background-size: 170%;
+  }
+  input {
+    border: solid 1px #e2e2e2;
   }
 }
 
