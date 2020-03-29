@@ -221,34 +221,34 @@ h3 {
 
 #berline {
   position: absolute;
-  left: 107px;
+  left: 150px;
   width: 480px;
   top: 20px;
 }
 
 #prestige{
   height: 255px;
-  width: 350px;
+  width: 360px;
   position: absolute;
-  left: 175px;
+  left: 220px;
   top: 30px;
 }
 
 
 #honda {
-  height: 254px;
-  width: 380px;
+  height: 244px;
+  width: 525px;
   position: absolute;
   top: 20px;
-  left: 145px;
+  left: 130px;
 }
 
 #van{
   height: 200px;
-  width: 300px;
+  width: 315px;
   position: absolute;
   top: 45px;
-  left: 185px;
+  left: 235px;
 }
 
 #range-rover {
@@ -269,6 +269,52 @@ h3 {
   position: absolute;
   left: 254px;
 }
+
+
+
+
+@media (max-device-width: 660px)  {
+
+  #berline {
+    left: 80px;
+  }
+
+  #prestige{
+    left: 110px;
+  }
+
+
+  #honda {
+    left: 30px;
+  }
+
+  #van{
+    left: 120px;
+  }
+
+  #range-rover {
+  /*    height: 230px;
+      width: 350px;
+      position: absolute;
+      top: 20px;
+      left: 30px;*/
+      height: 130px;
+      width: 190px;
+      position: absolute;
+      top: 140px;
+      left: 41px;
+  }
+
+  #bus {
+    height: 200px;
+    position: absolute;
+    left: 180px;
+    top: 65px;
+  }
+}
+
+
+
 
 #carouselExampleControls {
   width: 80%;
@@ -305,8 +351,8 @@ h3 {
 }
 
 
-button#navbarDropdown.avatar.dropdown-toggle {
+/*button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
-  margin-left: -50px !important; /* A REVOIR */
-}
+  margin-left: -50px !important;
+}*/

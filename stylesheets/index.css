@@ -6,12 +6,12 @@
   color: black !important;
 }
 
-button#navbarDropdown {
+/*button#navbarDropdown {
   color: black;
   background-color: transparent !important;
   border: none;
-  margin-left: -50px !important; /* A REVOIR */
-}
+  margin-left: -50px !important;
+}*/
 
 /*button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
@@ -179,7 +179,7 @@ button#navbarDropdown {
 @media (max-device-width: 660px)   {
   .logos {
   width: 100%;
-  height: 15vh;
+  height: 17vh;
   }
   .clients p {
     width: 100%;
@@ -226,13 +226,6 @@ button#navbarDropdown {
   height: 52px;
 }
 
-@media (max-device-width: 660px)  {
-  #viparis {
-/*  width: 170px;*/
-  margin-top: -7px;
-/*  height: 52px;
-*/}
-  }
 
 #cartier{
   height: 46px;
@@ -242,5 +235,20 @@ button#navbarDropdown {
 }
 
 
-
+@media (max-device-width: 660px)   {
+  #le-monde {
+    height: 32px;
+    width: 140px;
+    margin-bottom: 15px;
+  }
+  #accor {
+    height: 60px;
+    width: 140px;
+    margin-top: -18px;
+  }
+  #cartier{
+    height: 40px;
+    width: 120px;
+  }
+}
 

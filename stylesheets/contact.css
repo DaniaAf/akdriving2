@@ -132,7 +132,8 @@ textarea {
   width: 33.5% !important;
 }
 
-@media (max-device-width: 576px) {
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
   #button-input {
     font-size: 30px;
     padding: 20px 50px;
@@ -142,7 +143,8 @@ textarea {
 
 /*MEDIA QUERIES MOBILE*/
 
-@media (max-device-width: 576px) {
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
   .contact-content {
   display: grid;
   }
@@ -212,7 +214,8 @@ input.date-reservation-input{
   margin-right: 0;
 }
 
-@media (max-device-width: 576px) {
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
   input.date-reservation-input {
     font-size: 30px;
     margin-right: auto;
@@ -223,9 +226,10 @@ input.date-reservation-input{
   }
 }
 
-button#navbarDropdown.avatar.dropdown-toggle {
+/*button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
-  margin-left: -50px !important; /* A REVOIR */
+  margin-left: -50px !important;
 
 }
+*/

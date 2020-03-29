@@ -93,22 +93,29 @@ img.flags{
 button#navbarDropdown {
   font-size: 50px;
   background-color: transparent !important;
+  color: white
   border: none !important;
-  margin-left: -50px !important; /* A REVOIR */
+/*  margin-left: -50px !important; */
 
 /*  position: relative;
   left: 95%;*/
 }
 
-button#navbarDropdown.avatar.dropdown-toggle {
+/*.btn.focus, .btn:focus, .btn:hover  {
+  border: none ;
+  text-decoration: none !important;
+
+}*/
+
+/*button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none !important;
-  margin-left: -50px !important; /* A REVOIR */
 
-}
+}*/
 
 
-@media (max-device-width: 576px){
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
   .dropdown-menu>li>a {
     font-size : 50px;
   }

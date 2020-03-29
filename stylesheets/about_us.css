@@ -47,7 +47,8 @@ h3 {
   margin: 110px auto 60px auto;
 }
 
-@media (max-device-width: 576px) {
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
   .data-and-logo {
     width: 80%;
   }
@@ -99,23 +100,6 @@ p.data {
   border-radius: 11px;
 }
 
-@media (max-device-width: 576px) {
-  .trust-us-container {
-    width: 75%;
-  }
-  #chanel {
-    margin-left: 30px;
-  }
-  #cartier {
-    margin-right: 30px;
-  }
-  #dior {
-    margin-left: 30px;
-  }
-  #weston {
-    margin-right: 30px;
-  }
-}
 
 
 .col-logo {
@@ -171,13 +155,101 @@ p.data {
 
 #regus {
   height: 77px;
-    width: 115px;
+  width: 115px;
 }
 
 #weston {
   height: 35px;
   width: 162px;
   margin-right: 20px;
+}
+
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
+  .trust-us-container {
+    width: 75%;
+  }
+  #chanel {
+    margin-left: 30px;
+  }
+  #cartier {
+    margin-right: 30px;
+  }
+  #dior {
+    margin-left: 30px;
+  }
+  #weston {
+    margin-right: 30px;
+  }
+}
+
+@media (max-device-width: 660px)  {
+  #chanel {
+    height: 60px;
+    width: 105px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  #saint-laurent {
+    height: 40px;
+    /*width: 169px;*/
+  }
+
+  #le-monde {
+    width: 155px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  #accor {
+    width: 140px;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+
+  #cartier {
+    height: 45px;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  #dior {
+    height: 40px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  #celine {
+    height: 28px;
+    width: 135px;
+  }
+
+  #viparis {
+    height: 40px;
+    width: 150px;
+  }
+
+  #regus {
+    height: 60px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  #weston {
+    height: 30px;
+    width: 156px;
+    margin-right: 20px;
+  }
+
+
 }
 
 
@@ -201,7 +273,8 @@ p.data {
   font-size: 14.5px;
 }
 
-@media (max-device-width: 576px) {
+/*@media (max-device-width: 576px) {*/
+@media (max-device-width: 660px) {
   a.contact-button {
     font-size: 30px;
     padding: 20px 50px;
@@ -211,10 +284,10 @@ p.data {
   }
 
 
-button#navbarDropdown.avatar.dropdown-toggle {
+/*button#navbarDropdown.avatar.dropdown-toggle {
   background-color: transparent !important;
   border: none;
-  margin-left: -50px !important; /* A REVOIR */
-}
+  margin-left: -50px !important;
+}*/
 
 
