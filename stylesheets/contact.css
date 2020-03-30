@@ -33,7 +33,7 @@
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 100;
   font-family: 'Audiowide', cursive;
 }
@@ -49,8 +49,8 @@ h2 {
 
 .right-part {
   width: 50%;
-  background-image: url("../images/test.png");
-  background-size: 100%;
+  background-image: url("../images/test2.png");
+  background-size: 90%;
   background-position: 0 50%;
   background-size: cover;
   display: grid;

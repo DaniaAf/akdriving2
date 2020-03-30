@@ -68,10 +68,11 @@
 .slogan {
   color: black;
   font-family: Audiowide, sans-serif;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 51px;
   text-align: center;
 }
+
 
 .presentation {
   color: black;
@@ -89,7 +90,7 @@
   /*height: 56px;*/
   /*  margin left ok pour tous les appareils ?*/
   /*margin-left: 26%;*/
-  height: 160px;
+  height: 140px;
 }
 
 .call-to-action-about-us {
@@ -200,39 +201,72 @@
 
 
 
-#saint-laurent {
+/*#saint-laurent {
   height: 40px;
   width: 150px;
+}*/
+
+#saint-laurent{
+  height: 36px;
+  width: 135px;
 }
 
-#le-monde {
+/*#le-monde {
   height: 32px;
   width: 140px;
+}*/
+
+#le-monde{
+  height: 30px;
+  width: 128px;
+  margin-bottom: 8px;
 }
 
-#chanel {
+/*#chanel {
   height: 50px;
   width: 90px;
+}*/
+
+#chanel{
+  height: 47px;
+  width: 75px;
 }
 
-#accor {
+/*#accor {
   height: 70px;
   width: 140px;
   margin-top: -18px;
+}*/
+
+#accor{
+  height: 66px;
+  width: 133px;
+  margin-top: -18px;
 }
 
-#viparis {
+/*#viparis {
   width: 170px;
   margin-top: -7px;
   height: 52px;
 }
+*/
 
+#viparis{
+  width: 140px;
+  height: 40px;
+  margin-bottom: 6px;
+}
 
-#cartier{
+/*#cartier{
   height: 46px;
   width: 140px;
   margin-top: -17px;
-/*  margin-left: -30px;*/
+}*/
+
+#cartier{
+  height: 36px;
+  width: 105px;
+  margin-bottom: 11px;
 }
 
 
