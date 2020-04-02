@@ -1,195 +1,3 @@
-/*.contact-content {
-  display: flex;
-  font-family: 'Source Sans Pro', sans-serif;
-  min-height: calc(100vh - 163.99px);
-}
-
-.left-part {
-  width: 50%;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 88px 0px;
-}
-
-.icon-and-text-contact {
-  display: flex;
-}
-
-.icon-and-text-contact p {
-  font-size: 18px;
-  margin-left: 20px;
-}
-
-h2 {
-  font-size: 45px;
-  font-weight: 600;
-}
-
-.far.fa-envelope {
-  font-size: 40px;
-  margin-top: 5px;
-}
-
-.fas.fa-phone {
-  font-size: 40px;
-}
-
-.right-part {
-  width: 50%;
-  background-image: url("../images/background-reservation.jpg");
-  background-size: cover;
-  display: grid;
-  align-items: center;
-}
-
-.contact-form {
-  margin: 15px auto;
-  width: 53%;
-  min-height: 80%;
-  background-color: #E5E5E5;
-  border-radius: 22px;
-
-}
-
-form {
-  margin-top: 13%;
-  min-height: 80%;
-}
-
- #form-title {
-  width: 80%;
-  margin: 46px auto;
-  font-weight: 600;
-  font-size: 21px;
- }
-
-input {
-  width: 80%;
-  margin-bottom: 15px;
-  background-color: #E5E5E5;
-  display: grid;
-  margin: 28px auto;
-  border: none;
-  border-bottom: solid;
-  border-bottom-style: ridge;
-}
-
-textarea {
-  width: 80%;
-  margin-bottom: 15px;
-  background-color: white;
-  display: grid;
-  margin: 3px auto;
-  border-style: ridge !important;
-  height: 160px;
-}
-
-#message-title {
-  width: 80%;
-  margin: auto;
-  font-weight: 600;
-}
-
-#button-input {
-  border: none !important;
-  background-color: #ABABAB;
-  width: 33% !important;
-  border-radius: 3px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-  padding: 6px;
-  font-weight: 600;
-  align-items: center;
-}
-
-#button-input:hover {
-  opacity: 0.8;
-}*/
-
-
-/*MEDIA QUERIES MOBILE*/
-
-/*@media(max-width: 1000px) {
-  .contact-content {
-  display: grid;
-  }
-  .contact-form {
-    width: 80%;
-    min-height: 59%;
-  }
-  textarea{
-    height: 459px;
-  }
-  #button-input{
-    margin: 50px auto;
-  }
-  .left-part {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0;
-  }
-  .call-us {
-    margin-bottom: 79px;
-  }
-  .right-part {
-    width: 100%;
-  }
-  p#form-title {
-    font-size: 30px;
-  }
-  input {
-    font-size: 30px;
-  }
-  p#message-title{
-    font-size: 30px;
-  }
-  textarea {
-    font-size: 30px;
-  }
-}
-*/
-
-/*ONLY FOR BOOKING CSS*/
-
-/*.date-reservation {
-  width: 80%;
-  display: flex;
-  margin: 0 auto;
-}
-
-p#message-title-date {
-  width: 0;
-  margin: auto auto auto 0;
-  font-weight: 600;
-}
-
-input.date-reservation-input{
-  border-bottom: none;
-  display: flex;
-  width: fit-content;
-  margin-right: 0;
-}
-
-@media(max-width: 1000px) {
-  input.date-reservation-input {
-    font-size: 30px;
-    margin-right: auto;
-    margin-left: 0;
-  }
-  p#message-title-date {
-    font-size: 30px;
-  }
-}
-
-button#navbarDropdown.avatar.dropdown-toggle {
-  background-color: transparent !important;
-  border: none;
-}
-*/
-
-
-
 h3 {
   font-size: 24px;
   font-family: 'Audiowide', cursive;
@@ -217,38 +25,44 @@ h3 {
 /*caroussel */
 .cars-div-img {
   height: 400px;
+  display: flex;
+  align-items: center;
 }
 
 #berline {
-  position: absolute;
-  left: 180px;
+/*  position: absolute;
+  left: 180px;*/
   width: 480px;
-  top: 20px;
+  margin-bottom: 20%;
+/*  top: 20px;*/
 }
 
 #prestige{
   height: 255px;
   width: 360px;
-  position: absolute;
+  margin-bottom: 20%;
+/*  position: absolute;
   left: 220px;
-  top: 30px;
+  top: 30px;*/
 }
 
 
 #honda {
   height: 244px;
   width: 525px;
-  position: absolute;
+  margin-bottom: 20%;
+/*  position: absolute;
   top: 20px;
-  left: 130px;
+  left: 130px;*/
 }
 
 #van{
   height: 200px;
   width: 315px;
-  position: absolute;
+  margin-bottom: 20%;
+/*  position: absolute;
   top: 45px;
-  left: 235px;
+  left: 235px;*/
 }
 
 #range-rover {
@@ -259,15 +73,53 @@ h3 {
     left: 30px;*/
     height: 200px;
     width: 300px;
-    position: absolute;
+/*    position: absolute;
     top: 75px;
-    left: 41px;
+    left: 41px;*/
 }
 
 #bus {
   height: 255px;
-  position: absolute;
-  left: 254px;
+/*  position: absolute;
+  left: 254px;*/
+}
+
+
+
+#carouselExampleControls {
+  width: 80%;
+  margin: 50px auto 100px auto;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin: auto;
+}
+
+.car-img-and-prices {
+  display: flex;
+  /*justify-content: space-around;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.car-prices {
+  display: flex;
+  align-items: center;
+}
+
+.cars-title {
+  margin-bottom: 50px;
+}
+
+.fas.fa-chevron-left{
+  color: black;
+  font-size: 23px;
+}
+
+.fas.fa-chevron-right{
+  color: black;
+  font-size: 23px;
 }
 
 
@@ -275,7 +127,7 @@ h3 {
 
 @media (max-device-width: 660px)  {
 
-  #berline {
+/*  #berline {
     left: 80px;
   }
 
@@ -290,7 +142,7 @@ h3 {
 
   #van{
     left: 120px;
-  }
+  }*/
 
   #range-rover {
   /*    height: 230px;
@@ -311,43 +163,6 @@ h3 {
     left: 180px;
     top: 65px;
   }
-}
-
-
-
-
-#carouselExampleControls {
-  width: 80%;
-  margin: 50px auto 100px auto;
-}
-
-.carousel-inner {
-  width: 70%;
-  margin: auto;
-}
-
-.car-img-and-prices {
-  display: flex;
-  justify-content: space-around;
-}
-
-.car-prices {
-  display: flex;
-  align-items: center;
-}
-
-.cars-title {
-  margin-bottom: 50px;
-}
-
-.fas.fa-chevron-left{
-  color: black;
-  font-size: 23px;
-}
-
-.fas.fa-chevron-right{
-  color: black;
-  font-size: 23px;
 }
 
 
