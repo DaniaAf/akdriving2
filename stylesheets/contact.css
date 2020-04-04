@@ -58,9 +58,7 @@ h2 {
   align-items: center;
 }
 
-/*.right-part-reservation{
-  background-image: url("../images/background-reservation.jpg") !important;
-}*/
+
 
 .contact-form {
   /*display: grid;*/
@@ -221,10 +219,10 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
   .contact-form{
     min-height: 0 !important;
-    display: flex;
+/*    display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 50%;*/
   }
 
   textarea {
@@ -247,43 +245,4 @@ and (max-device-width : 1024px) {
 }
 
 
-/*ONLY FOR BOOKING CSS*/
 
-.date-reservation {
-  width: 80%;
-  display: flex;
-  margin: 0 auto;
-}
-
-p#message-title-date {
-  width: 0;
-  margin: auto auto auto 0;
-  font-weight: 600;
-}
-
-input.date-reservation-input{
-  border-bottom: none;
-  display: flex;
-  width: fit-content;
-  margin-right: 0;
-}
-
-/*@media (max-device-width: 576px) {*/
-@media (max-device-width: 660px) {
-  input.date-reservation-input {
-    font-size: 30px;
-    margin-right: auto;
-    margin-left: 0;
-  }
-  p#message-title-date {
-    font-size: 30px;
-  }
-}
-
-/*button#navbarDropdown.avatar.dropdown-toggle {
-  background-color: transparent !important;
-  border: none;
-  margin-left: -50px !important;
-
-}
-*/
