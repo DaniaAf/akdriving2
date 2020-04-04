@@ -49,10 +49,11 @@ h2 {
 
 .right-part {
   width: 50%;
-  background-image: url("../images/test2.png");
-  background-size: 90%;
-  background-position: 0 50%;
-  background-size: cover;
+  /*background-image: url("../images/test2.png");*/
+  background-image: url("../images/phone.png");
+  background-size: 96%;
+  background-position: 50% 50%;
+  /*background-size: cover;*/
   display: grid;
   align-items: center;
 }
@@ -124,6 +125,7 @@ textarea {
   padding: 6px;
   font-weight: 600;
   align-items: center;
+  margin: 15px auto;
 }
 
 #button-input:hover {
@@ -158,12 +160,19 @@ textarea {
   input{
     background-color: white;
     border: solid 1px #e2e2e2;
+    width: 70%;
   }
   textarea{
     height: 459px;
+    width: 70%;
   }
   #button-input{
     margin: 50px auto;
+  }
+  input#button-input{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
   }
   .left-part {
     display: flex;
@@ -173,8 +182,10 @@ textarea {
     margin: 39px 0px 78px 0px;
   }
   .right-part {
-    background-position: -164px 50%;
-    background-size: 133%;
+/*    background-position: -164px 50%;
+    background-size: 133%;*/
+    background-position: 50% 50%;
+    background-size: 120%;
   }
 
   .call-us  {
@@ -208,15 +219,27 @@ textarea {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+  .contact-form{
+    min-height: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+
   textarea {
     height: 250px;
   }
   form {
-    margin-top: 68%;
+/*    margin-top: 68%;*/
+  width: 100%;
+
   }
   .right-part {
-    background-position: -173px 50%;
-    background-size: 170%;
+/*    background-position: -173px 50%;
+    background-size: 170%;*/
+    background-position: 50% 50%;
+    background-size: 130%;
   }
   input {
     border: solid 1px #e2e2e2;

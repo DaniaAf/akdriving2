@@ -85,6 +85,11 @@ h3 {
 }
 
 
+#grouped{
+  height: 250px;
+  margin-bottom: 20%;
+}
+
 
 #carouselExampleControls {
   width: 80%;

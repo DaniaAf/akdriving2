@@ -19,9 +19,18 @@
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   font-size: 25px;
 }
+
+i.fab.fa-instagram:hover{
+  color: #ec4c7e;
+}
+
+i.fab.fa-facebook:hover {
+  color: #3B5999;
+}
+
 .footer .fa-heart {
   color: #D23333;
 }
@@ -79,4 +88,8 @@
 .footer-copyright.mobile{
   width: fit-content;
   margin: auto;
+}
+
+.fab.fa.facebook:hover{
+  color: #4d70b7;
 }
