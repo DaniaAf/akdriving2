@@ -65,7 +65,7 @@ i.fab.fa-facebook:hover {
 
 .footer-copyright p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 0 !important;
 }
 
@@ -86,13 +86,28 @@ i.fab.fa-facebook:hover {
   font-size: 24px !important;
 }
 
+.phone-logo.fas.fa-mobile-alt{
+  margin-left: 4px;
+  /*margin-bottom: 2px;*/
+}
+
+.phone-logo.fas.fa-phone{
+  font-size: 20px !important;
+  margin-bottom: 2px;
+}
+
+.phone-logo.far.fa-envelope{
+  font-size: 22px !important;
+  margin-top: 4px;
+}
+
 .div-contact{
   display: block
 }
 
 .footer-copyright.mobile{
   width: fit-content;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .fab.fa.facebook:hover{
